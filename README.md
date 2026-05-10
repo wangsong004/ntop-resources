@@ -119,6 +119,10 @@
 
 ### 7. Introduction to the Remap Field block
 
+> **【已读】2026-05-10**
+>
+> **【五星】★★★★★**
+
 链接：[Support 教程](https://support.ntop.com/hc/en-us/articles/4408249667731-Introduction-to-the-Remap-Field-block)
 
 更新时间：2026-04-06
@@ -468,7 +472,7 @@ Blake Courter 的经典 masterclass，讲：
 
 ### 7. Automated topology optimization reconstruction and smoothening
 
-学习状态：已看（2026-05-06）
+> **【已读】2026-05-06**
 
 链接：[视频页面](https://www.ntop.com/resources/videos/ntop-live-automated-topology-optimization-reconstruction-smoothening-in-ntopology/)
 
