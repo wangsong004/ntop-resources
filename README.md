@@ -6,7 +6,7 @@
 
 自动维护目标：每天上午 10:00 新增 2 条 nTop / nTopology 隐式建模资料，优先选择带项目文件、Example File、Download file、`.ntop`、视频教程和高质量文章的资源。
 
-标记说明：![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 表示你已经看过；![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) 表示重点收藏。你以后告诉我哪些看过或要标星，我会把对应条目移动到前面，并使用红色标记。
+标记说明：![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 表示你已经看过；![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) 表示重点收藏；![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) 表示自动任务新添加的资料。你以后告诉我哪些看过或要标星，我会把对应条目移动到前面，并使用红色标记；每天自动新增的条目会保留绿色新增标记和新增日期，方便你回看。
 
 ## 已读 / 标星置顶
 
@@ -18,7 +18,7 @@
 
 ## 每日新增记录
 
-> 自动任务会从这里继续追加每天新增的 2 条资料；已有链接不会重复添加。
+> 自动任务会从这里继续追加每天新增的 2 条资料；每条都会带绿色 ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) 标记和新增日期；已有链接不会重复添加。
 
 ## 学习路线
 
