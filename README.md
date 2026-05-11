@@ -1,8 +1,24 @@
 # nTop 隐式建模软件资料整理
 
-整理日期：2026-05-10
+最后更新：2026-05-11
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
+
+自动维护目标：每天上午 10:00 新增 2 条 nTop / nTopology 隐式建模资料，优先选择带项目文件、Example File、Download file、`.ntop`、视频教程和高质量文章的资源。
+
+标记说明：![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 表示你已经看过；![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) 表示重点收藏。你以后告诉我哪些看过或要标星，我会把对应条目移动到前面，并使用红色标记。
+
+## 已读 / 标星置顶
+
+1. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) ![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) **[Introduction to the Remap Field block](https://support.ntop.com/hc/en-us/articles/4408249667731-Introduction-to-the-Remap-Field-block)** · 已读：2026-05-10 · 五星。  
+   适合：remap field、mirroring/arraying/orienting、image on body、shape field warping、cylindrical remap。
+
+2. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[Automated topology optimization reconstruction and smoothening](https://www.ntop.com/resources/videos/ntop-live-automated-topology-optimization-reconstruction-smoothening-in-ntopology/)** · 已读：2026-05-06。  
+   适合：拓扑优化结果重建、Smoothen Body、面向制造的 topology optimized part 输出。
+
+## 每日新增记录
+
+> 自动任务会从这里继续追加每天新增的 2 条资料；已有链接不会重复添加。
 
 ## 学习路线
 
@@ -32,7 +48,7 @@
    适合：Python 生成 JSON、调用 `nTopCL.exe`、DoE、批量生成变体、外部优化/仿真联动。
 
 7. **[Introduction to the Remap Field block](https://support.ntop.com/hc/en-us/articles/4408249667731-Introduction-to-the-Remap-Field-block)** · Support，更新 2026-04-06；40:17 视频 + `Example File`。  
-   > **【已读】2026-05-10 · 【五星】★★★★★**  
+   > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) ![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) 已读：2026-05-10 · 五星  
    适合：remap field、mirroring/arraying/orienting、image on body、shape field warping、cylindrical remap。
 
 8. **[How to build a custom lattice unit cell](https://support.ntop.com/hc/en-us/articles/360055403953-How-to-build-a-custom-lattice-unit-cell)** · Support，2026-04-02；提供 `Example File`。  
@@ -98,7 +114,7 @@
    适合：leather / wood / marble texture，复杂曲面 wrap，field 控制 texture 参数。
 
 7. **[Automated topology optimization reconstruction and smoothening](https://www.ntop.com/resources/videos/ntop-live-automated-topology-optimization-reconstruction-smoothening-in-ntopology/)** · 视频，2021-10-21；提供 `Download the files`。  
-   > **【已读】2026-05-06**  
+   > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-06  
    适合：拓扑优化结果重建、Smoothen Body、面向制造的 topology optimized part 输出。
 
 8. **[Lightweighting an impeller for additive manufacturing](https://www.ntop.com/resources/videos/lightweighting-an-impeller-for-additive-manufacturing/)** · 视频，2024-03-01。  
