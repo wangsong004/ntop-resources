@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-05-11
+最后更新：2026-05-14
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -19,6 +19,40 @@
 ## 每日新增记录
 
 > 自动任务会从这里继续追加每天新增的 2 条资料；每条都会带绿色 ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) 标记和新增日期；已有链接不会重复添加。
+
+## 工艺品 / 外观灵感
+
+> 这组偏向工艺品、消费品外观、鞋类、纹理、浮雕和可 3D 打印的视觉结构。优先保留有图片、视频、项目文件或 Example File 的资源。
+
+1. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[nTop training: Shoe design](https://www.ntop.com/resources/videos/ntop-training-shoe-design-thursday-september-9-2021/)** · 新增：2026-05-14 · 视频 + Download file。  
+   适合：鞋底、泡沫结构、渐变晶格、表面纹理。这个是偏“跟做训练”的资源，适合把鞋类和工艺品外观流程拆开学习。
+
+2. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Midsoles with periodic TPMS structures for high-performance sport shoes](https://www.ntop.com/resources/videos/ntop-live-tpms-structures-for-custom-design/)** · 新增：2026-05-14 · 视频 + Download file。  
+   适合：TPMS 鞋底、周期极小曲面、运动鞋中底、好看的参数化曲面结构。
+
+3. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Designing a 3D printed shoe using nTop](https://www.ntop.com/resources/blog/designing-a-3d-printed-shoe-using-ntop-platform/)** · 新增：2026-05-14 · 图片/动画 + 文章。  
+   适合：一体打印鞋、鞋面 Voronoi、鞋底纹理、工业设计探索。图片很多，灵感价值高。
+
+4. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Parametric modeling of hyper-realistic 3D textures for industrial design](https://www.ntop.com/resources/videos/ntop-live-parametric-modeling-of-hyper-realistic-3d-textures-for-industrial-design/)** · 新增：2026-05-14 · 视频 + Download file。  
+   适合：皮革、木纹、大理石、手柄、鞋底、汽车内饰件和装饰外壳表面。
+
+5. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Generating surface textures with procedural modeling](https://support.ntop.com/hc/en-us/articles/360060809134-Generating-surface-textures-with-procedural-modeling)** · 新增：2026-05-14 · 文章 + 图片 + 多个 `.ntop` 示例文件。  
+   适合：roughness、leather、wood、marble 等程序纹理，是做工艺品外壳、摆件、握把和产品表面的高价值教程。
+
+6. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · 新增：2026-05-14 · 文章 + 图片 + Example File。  
+   适合：Voronoi 表面纹理、花瓶、外壳、浮雕表面、仿生孔洞装饰。
+
+7. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to map a bitmap onto a curved surface](https://support.ntop.com/hc/en-us/articles/5384098529555-How-to-map-a-bitmap-onto-a-curved-surface)** · 新增：2026-05-14 · 文章 + 图片 + Example file + Custom Block。  
+   适合：把图案、Logo 或灰度图压到曲面、球面、吊坠、奖章、摆件表面。
+
+8. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to deboss an image](https://support.ntop.com/hc/en-us/articles/4403963185683-How-to-deboss-an-image)** · 新增：2026-05-14 · 文章 + 图片 + Example file。  
+   适合：凹雕/浮雕 Logo、铭牌、徽章、包装件和产品外壳装饰。
+
+9. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to create a knurled texture](https://support.ntop.com/hc/en-us/articles/360041727774-How-to-create-a-knurled-texture)** · 新增：2026-05-14 · 文章 + 图片 + Example File。  
+   适合：旋钮、笔杆、手柄、工具握把、防滑纹理和小型功能工艺件。
+
+10. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[We gave nTop to students: Here’s what they designed](https://www.ntop.com/resources/blog/we-gave-ntop-to-students-heres-what-they-designed/)** · 新增：2026-05-14 · 图片 + 案例文章。  
+    适合：学生项目灵感合集，包含柔性护具、晶格鞋垫、轻量结构等，适合找“别人用 nTop 做了什么有意思的东西”。
 
 ## 学习路线
 
@@ -172,6 +206,7 @@
 | 方向 | 优先资料 |
 | --- | --- |
 | 刚入门 | Dashboard examples、nTop Learn、What is implicit modeling |
+| 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | How to use fields、Two-body field、Remap Field block |
 | 晶格结构 | Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness |
