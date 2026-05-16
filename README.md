@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-05-14
+最后更新：2026-05-16
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -15,6 +15,9 @@
 
 2. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[Automated topology optimization reconstruction and smoothening](https://www.ntop.com/resources/videos/ntop-live-automated-topology-optimization-reconstruction-smoothening-in-ntopology/)** · 已读：2026-05-06。  
    适合：拓扑优化结果重建、Smoothen Body、面向制造的 topology optimized part 输出。
+
+3. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · 已读：2026-05-16；Support，更新 2026-04-02；提供 `.ntop` `Example File`。  
+   适合：在多个 2D profiles 间生成平滑过渡体，练习 loft、截面轮廓、implicit body 与参数化截面建模。
 
 ## 每日新增记录
 
@@ -127,6 +130,10 @@
 21. **[nTop Learn 课程总览：Intro to Field-Driven Design（Course 220）](https://learn.ntop.com/courses/220-intro-to-field-driven-design/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
     适合：field 概念、常用 block、组合套路和完整 bracket 小项目复盘。
 
+22. **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · Support，更新 2026-04-02；提供 `.ntop` `Example File`（`loft_profiles.ntop`）。  
+    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
+    适合：在多个 2D profiles 间生成平滑过渡体，练习 loft、截面轮廓、implicit body 与参数化截面建模。
+
 ## 视频资料
 
 1. **[What is implicit modeling in nTop?](https://www.ntop.com/videos/video/ntop-live-what-is-implicit-modeling-in-ntopology/)** · 视频，2021-08-30；提供 `Download the files`。  
@@ -205,7 +212,7 @@
 
 | 方向 | 优先资料 |
 | --- | --- |
-| 刚入门 | Dashboard examples、nTop Learn、What is implicit modeling |
+| 刚入门 | Dashboard examples、nTop Learn、Loft between profiles、What is implicit modeling |
 | 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | How to use fields、Two-body field、Remap Field block |
