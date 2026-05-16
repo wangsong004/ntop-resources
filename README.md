@@ -19,6 +19,9 @@
 3. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · 已读：2026-05-16；Support，更新 2026-04-02；提供 `.ntop` `Example File`。  
    适合：在多个 2D profiles 间生成平滑过渡体，练习 loft、截面轮廓、implicit body 与参数化截面建模。
 
+4. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to create a surface mesh](https://support.ntop.com/hc/en-us/articles/360038828913-How-to-create-a-surface-mesh)** · 已读：2026-05-16；Support，更新 2026-04-02；提供 `Example File`。  
+   适合：把 implicit body / CAD body 转成高质量 surface mesh，练习网格尺寸、tolerance、feature preservation 与制造/仿真前处理。
+
 ## 每日新增记录
 
 > 自动任务会从这里继续追加每天新增的 2 条资料；每条都会带绿色 ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) 标记和新增日期；已有链接不会重复添加。
@@ -134,6 +137,10 @@
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
     适合：在多个 2D profiles 间生成平滑过渡体，练习 loft、截面轮廓、implicit body 与参数化截面建模。
 
+23. **[How to create a surface mesh](https://support.ntop.com/hc/en-us/articles/360038828913-How-to-create-a-surface-mesh)** · Support，更新 2026-04-02；提供 `Example File`。  
+    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
+    适合：把 implicit body / CAD body 转成高质量 surface mesh，练习网格尺寸、tolerance、feature preservation 与制造/仿真前处理。
+
 ## 视频资料
 
 1. **[What is implicit modeling in nTop?](https://www.ntop.com/videos/video/ntop-live-what-is-implicit-modeling-in-ntopology/)** · 视频，2021-08-30；提供 `Download the files`。  
@@ -221,5 +228,5 @@
 | 拓扑优化 | Intro to Topology Optimization、Topology reconstruction video、Custom Field Optimization Component |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Thermal management、nTop Fluids |
-| 仿真 / 网格 | FE Mesh for complex shell lattice、Robust meshing、Lattice Simulation files |
+| 仿真 / 网格 | Surface mesh、FE Mesh for complex shell lattice、Robust meshing、Lattice Simulation files |
 | 航空参数化 | Parametric Aircraft Design、Accelerated Aircraft Modeling Webinar |
