@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-05-16
+最后更新：2026-05-23
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -21,6 +21,24 @@
 
 4. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to create a surface mesh](https://support.ntop.com/hc/en-us/articles/360038828913-How-to-create-a-surface-mesh)** · 已读：2026-05-16；Support，更新 2026-04-02；提供 `Example File`。  
    适合：把 implicit body / CAD body 转成高质量 surface mesh，练习网格尺寸、tolerance、feature preservation 与制造/仿真前处理。
+
+5. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to generate random patterns on the surface of a part](https://support.ntop.com/hc/en-us/articles/1500003975321-How-to-generate-random-patterns-on-the-surface-of-a-part)** · 已读：2026-05-23；SEED 2026-05-11；`.ntop` notebook：[Random Pattern on Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Random%20Pattern%20on%20Part%20Example.ntop)。  
+   适合：随机表面图案、纹理扰动、field-driven 外观变化和工艺品表面装饰。
+
+6. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to create perforations on any part](https://support.ntop.com/hc/en-us/articles/1500012943262-How-to-create-perforations-on-any-part)** · 已读：2026-05-23；SEED 2026-05-11；`.ntop` notebook：[Perforated Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Implicit%20Modeling/Perforated%20Part%20Example.ntop)。  
+   适合：可变孔洞、穿孔外壳、轻量化表皮和由 field 控制的孔径变化。
+
+7. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to generate randomized lattice thickness](https://support.ntop.com/hc/en-us/articles/360041726534-How-to-generate-randomized-lattice-thickness)** · 已读：2026-05-23；SEED 2026-05-11；`.ntop` notebook：[Variable_Voronoi_Lattice_Thicken_Simplex_Noise.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Variable_Voronoi_Lattice_Thicken_Simplex_Noise.ntop)。  
+   适合：随机晶格厚度、Simplex Noise、Voronoi lattice 和 stochastic foam 质感。
+
+8. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · 已读：2026-05-23；SEED 2026-05-11；`.ntop` notebook：[Voronoi Surface Texture Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Voronoi%20Surface%20Texture%20Example.ntop)。  
+   适合：Voronoi 表面纹理、浮雕凹纹、仿生孔洞和装饰性表面结构。
+
+9. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to build a structural lattice on a CAD face](https://support.ntop.com/hc/en-us/articles/360042295414-How-to-build-a-structural-lattice-on-a-CAD-face)** · 已读：2026-05-23；SEED 2026-05-11；`.ntop` notebook：[Structural Ribbing.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Structural%20Ribbing.ntop)。  
+   适合：CAD face 上的 structural ribbing、conformal lattice、表面补强和轻量化筋结构。
+
+10. ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to build a custom lattice unit cell](https://support.ntop.com/hc/en-us/articles/360055403953-How-to-build-a-custom-lattice-unit-cell)** · 已读：2026-05-23；SEED 2026-05-11；`.ntop` notebook：[CustomUnitCellExamples.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/CustomUnitCellExamples.ntop)。  
+   适合：自定义晶格单元、graph unit cell、unit cell domain 和混合 face-beam lattice 练习。
 
 ## 每日新增记录
 
@@ -45,7 +63,7 @@
 5. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Generating surface textures with procedural modeling](https://support.ntop.com/hc/en-us/articles/360060809134-Generating-surface-textures-with-procedural-modeling)** · 新增：2026-05-14 · 文章 + 图片 + 多个 `.ntop` 示例文件。  
    适合：roughness、leather、wood、marble 等程序纹理，是做工艺品外壳、摆件、握把和产品表面的高价值教程。
 
-6. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · 新增：2026-05-14 · 文章 + 图片 + Example File。  
+6. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · 新增：2026-05-14 · 已读：2026-05-23 · 文章 + 图片 + Example File：[Voronoi Surface Texture Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Voronoi%20Surface%20Texture%20Example.ntop)。  
    适合：Voronoi 表面纹理、花瓶、外壳、浮雕表面、仿生孔洞装饰。
 
 7. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to map a bitmap onto a curved surface](https://support.ntop.com/hc/en-us/articles/5384098529555-How-to-map-a-bitmap-onto-a-curved-surface)** · 新增：2026-05-14 · 文章 + 图片 + Example file + Custom Block。  
@@ -91,53 +109,65 @@
    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) ![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) 已读：2026-05-10 · 五星  
    适合：remap field、mirroring/arraying/orienting、image on body、shape field warping、cylindrical remap。
 
-8. **[How to build a custom lattice unit cell](https://support.ntop.com/hc/en-us/articles/360055403953-How-to-build-a-custom-lattice-unit-cell)** · Support，2026-04-02；提供 `Example File`。  
-   适合：custom unit cell、implicit/graph overload、unit cell domain、face-based / CAD sketch / hybrid face-beam lattice。
+8. **[How to generate random patterns on the surface of a part](https://support.ntop.com/hc/en-us/articles/1500003975321-How-to-generate-random-patterns-on-the-surface-of-a-part)** · Support；提供 `.ntop` notebook：[Random Pattern on Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Random%20Pattern%20on%20Part%20Example.ntop)。  
+   > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
+   适合：随机表面图案、纹理扰动、field-driven 外观变化和工艺品表面装饰。
 
-9. **[How to build a structural lattice on a CAD face](https://support.ntop.com/hc/en-us/articles/360042295414-How-to-build-a-structural-lattice-on-a-CAD-face)** · Support，2026-04-02；提供 `Example File`。  
-   适合：CAD face 上生成 honeycomb / conformal lattice，学习 `Cell Map from CAD Face`。
+9. **[How to create perforations on any part](https://support.ntop.com/hc/en-us/articles/1500012943262-How-to-create-perforations-on-any-part)** · Support；提供 `.ntop` notebook：[Perforated Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Implicit%20Modeling/Perforated%20Part%20Example.ntop)。  
+   > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
+   适合：可变孔洞、穿孔外壳、轻量化表皮和由 field 控制的孔径变化。
 
-10. **[How to generate randomized lattice thickness](https://support.ntop.com/hc/en-us/articles/360041726534-How-to-generate-randomized-lattice-thickness)** · Support，2026-04-02；提供 `Example File`。  
+10. **[How to generate randomized lattice thickness](https://support.ntop.com/hc/en-us/articles/360041726534-How-to-generate-randomized-lattice-thickness)** · Support，2026-04-02；提供 `.ntop` notebook：[Variable_Voronoi_Lattice_Thicken_Simplex_Noise.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Variable_Voronoi_Lattice_Thicken_Simplex_Noise.ntop)。  
+    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
     适合：Simplex Noise、Ramp 控制 beam thickness、Voronoi Volume Lattice、随机泡沫结构。
 
-11. **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · Support，2026-03-02；提供 `Example File`。  
+11. **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · Support，2026-03-02；提供 `.ntop` notebook：[Voronoi Surface Texture Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Voronoi%20Surface%20Texture%20Example.ntop)。  
+    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
     适合：Random Points on Mesh、Voronoi Surface Lattice、Boolean Subtract、仿皮革/浮雕/凹纹。
 
-12. **[How to warp a lattice with sine wave spacing](https://support.ntop.com/hc/en-us/articles/1500002409602-How-to-warp-a-lattice-with-sine-wave-spacing)** · Support，2025-12-19；提供 `Example file` + `Normalize Field` custom block。  
+12. **[How to build a structural lattice on a CAD face](https://support.ntop.com/hc/en-us/articles/360042295414-How-to-build-a-structural-lattice-on-a-CAD-face)** · Support，2026-04-02；提供 `.ntop` notebook：[Structural Ribbing.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Structural%20Ribbing.ntop)。  
+    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
+    适合：CAD face 上生成 honeycomb / conformal lattice，学习 `Cell Map from CAD Face`。
+
+13. **[How to build a custom lattice unit cell](https://support.ntop.com/hc/en-us/articles/360055403953-How-to-build-a-custom-lattice-unit-cell)** · Support，2026-04-02；提供 `.ntop` notebook：[CustomUnitCellExamples.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/CustomUnitCellExamples.ntop)。  
+    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
+    适合：custom unit cell、implicit/graph overload、unit cell domain、face-based / CAD sketch / hybrid face-beam lattice。
+
+14. **[How to warp a lattice with sine wave spacing](https://support.ntop.com/hc/en-us/articles/1500002409602-How-to-warp-a-lattice-with-sine-wave-spacing)** · Support，2025-12-19；提供 `Example file` + `Normalize Field` custom block。  
     适合：sine wave field、Remap Field、Normalize Field、空间周期结构变形。
 
-13. **[How to create an FE Mesh for a complex shell lattice](https://support.ntop.com/hc/en-us/articles/360058488094-How-to-create-an-FE-Mesh-for-a-complex-shell-lattice)** · Support，2026-01-13；提供 `Example file`。  
+15. **[How to create an FE Mesh for a complex shell lattice](https://support.ntop.com/hc/en-us/articles/360058488094-How-to-create-an-FE-Mesh-for-a-complex-shell-lattice)** · Support，2026-01-13；提供 `Example file`。  
     适合：trimmed shell lattice、faces as mesh、FE Surface Mesh、复杂晶格仿真前处理。
 
-14. **[How to warp the cell size of a Cell Map](https://support.ntop.com/hc/en-us/articles/360060023794-How-to-warp-the-cell-size-of-a-Cell-Map)** · Support，2026-04-02；提供 `Example File`。  
+16. **[How to warp the cell size of a Cell Map](https://support.ntop.com/hc/en-us/articles/360060023794-How-to-warp-the-cell-size-of-a-Cell-Map)** · Support，2026-04-02；提供 `Example File`。  
     适合：Warp Cell Map、U/V/W scale fields、linear/radial warp、graded lattice。
 
-15. **[Generating surface textures with procedural modeling](https://support.ntop.com/hc/en-us/articles/360060809134-Generating-surface-textures-with-procedural-modeling)** · Support，2026-03-02；多个 `.ntop` 示例 + 附件。  
+17. **[Generating surface textures with procedural modeling](https://support.ntop.com/hc/en-us/articles/360060809134-Generating-surface-textures-with-procedural-modeling)** · Support，2026-03-02；多个 `.ntop` 示例 + 附件。  
     适合：Roughness / Leather / Wood / Marble，噪声场 + Offset + Ramp / Remap Field 做程序纹理。
 
-16. **[Download: Completed Box and Lattice nTop Automate Files](https://learn.ntop.com/courses/330-ntop-automate/lessons/download-completed-box-and-lattice-ntop-automate-files/)** · nTop Learn，Published: 2.1 years ago；提供 `BoxExample.zip`、`LatticeExample.zip`。  
+18. **[Download: Completed Box and Lattice nTop Automate Files](https://learn.ntop.com/courses/330-ntop-automate/lessons/download-completed-box-and-lattice-ntop-automate-files/)** · nTop Learn，Published: 2.1 years ago；提供 `BoxExample.zip`、`LatticeExample.zip`。  
     适合：Intro to nTop Automate 完成版文件、JSON I/O、批处理变体、脚本化调用 nTopCL。
 
-17. **[Download: Completed Lattice Simulation nTop Files](https://learn.ntop.com/lessons/download-completed-lattice-simulation-ntop-files-2/)** · nTop Learn，Published: 2.1 years ago；3 个 `.ntop`，last updated in `nTop 5.14.2`。  
+19. **[Download: Completed Lattice Simulation nTop Files](https://learn.ntop.com/lessons/download-completed-lattice-simulation-ntop-files-2/)** · nTop Learn，Published: 2.1 years ago；3 个 `.ntop`，last updated in `nTop 5.14.2`。  
     适合：solid elements / beam elements / homogenization 三种 lattice FEA 方法对比。
 
-18. **[Download: Completed Field Driven Bracket](https://learn.ntop.com/courses/220-intro-to-field-driven-design/lessons/download-completed-field-driven-bracket/)** · nTop Learn；提供 `Completed — Field Driven Bracket.ntop`，last updated in `nTop 5.15.2`。  
+20. **[Download: Completed Field Driven Bracket](https://learn.ntop.com/courses/220-intro-to-field-driven-design/lessons/download-completed-field-driven-bracket/)** · nTop Learn；提供 `Completed — Field Driven Bracket.ntop`，last updated in `nTop 5.15.2`。  
     适合：Intro to Field-Driven Design 完整小项目，用 distance / ramp / remap 驱动几何。
 
-19. **[How to use nTop Automate in ModeFrontier DOE workflows](https://support.ntop.com/hc/en-us/articles/360052078394-How-to-use-nTop-Automate-in-ModeFrontier-DOE-workflows)** · Support，2026-03-16；视频 + `Mode Frontier Example.zip`。  
+21. **[How to use nTop Automate in ModeFrontier DOE workflows](https://support.ntop.com/hc/en-us/articles/360052078394-How-to-use-nTop-Automate-in-ModeFrontier-DOE-workflows)** · Support，2026-03-16；视频 + `Mode Frontier Example.zip`。  
     适合：ModeFrontier DOE/MDO，JSON 输入输出，nTop Automate 接外部设计探索平台。
 
-20. **[nTop Learn 课程总览：nTop Automate（Course 330）](https://learn.ntop.com/courses/330-ntop-automate/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
+22. **[nTop Learn 课程总览：nTop Automate（Course 330）](https://learn.ntop.com/courses/330-ntop-automate/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
     适合：系统学习 CLI、`ntopcl`、批处理、参数探索；再按章节下载对应 `.ntop` / zip。
 
-21. **[nTop Learn 课程总览：Intro to Field-Driven Design（Course 220）](https://learn.ntop.com/courses/220-intro-to-field-driven-design/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
+23. **[nTop Learn 课程总览：Intro to Field-Driven Design（Course 220）](https://learn.ntop.com/courses/220-intro-to-field-driven-design/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
     适合：field 概念、常用 block、组合套路和完整 bracket 小项目复盘。
 
-22. **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · Support，更新 2026-04-02；提供 `.ntop` `Example File`（`loft_profiles.ntop`）。  
+24. **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · Support，更新 2026-04-02；提供 `.ntop` `Example File`（`loft_profiles.ntop`）。  
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
     适合：在多个 2D profiles 间生成平滑过渡体，练习 loft、截面轮廓、implicit body 与参数化截面建模。
 
-23. **[How to create a surface mesh](https://support.ntop.com/hc/en-us/articles/360038828913-How-to-create-a-surface-mesh)** · Support，更新 2026-04-02；提供 `Example File`。  
+25. **[How to create a surface mesh](https://support.ntop.com/hc/en-us/articles/360038828913-How-to-create-a-surface-mesh)** · Support，更新 2026-04-02；提供 `Example File`。  
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
     适合：把 implicit body / CAD body 转成高质量 surface mesh，练习网格尺寸、tolerance、feature preservation 与制造/仿真前处理。
 
@@ -220,11 +250,11 @@
 | 方向 | 优先资料 |
 | --- | --- |
 | 刚入门 | Dashboard examples、nTop Learn、Loft between profiles、What is implicit modeling |
-| 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、procedural textures、bitmap/deboss/knurl |
+| 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、random pattern、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | How to use fields、Two-body field、Remap Field block |
 | 晶格结构 | Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness |
-| 表面纹理 | Voronoi surface texture、Hyper-realistic 3D textures、Procedural textures |
+| 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Hyper-realistic 3D textures、Procedural textures |
 | 拓扑优化 | Intro to Topology Optimization、Topology reconstruction video、Custom Field Optimization Component |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Thermal management、nTop Fluids |
