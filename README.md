@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-05-23
+最后更新：2026-05-24
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -77,6 +77,47 @@
 
 10. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[We gave nTop to students: Here’s what they designed](https://www.ntop.com/resources/blog/we-gave-ntop-to-students-heres-what-they-designed/)** · 新增：2026-05-14 · 图片 + 案例文章。  
     适合：学生项目灵感合集，包含柔性护具、晶格鞋垫、轻量结构等，适合找“别人用 nTop 做了什么有意思的东西”。
+
+## Custom Blocks / 有趣形状
+
+> 这组专门收集可复用 custom blocks、能拆开学习的参数化 notebook，以及社区里特别有形状启发的 nTop / nTopology 作品。优先保留带 `.ntop`、Example File、Downloadable Files、模型文件或视频演示的资源。
+
+1. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Commonly Used Custom Blocks](https://learn.ntop.com/courses/230-intro-to-automation/lessons/commonly-used-custom-blocks/)** · 新增：2026-05-24 · nTop Learn；多个 `.ntop` custom block。  
+   文件：[`CB - Mesh Export.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_1%20CB%20-%20Mesh%20Export.ntop)、[`CB - Move Object.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_2%20CB%20-%20Move%20Object.ntop)、[`CB - Point from Bounding Box.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_3%20CB%20-%20Point%20from%20Bounding%20Box.ntop)、[`CB - One Sided Offset.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_4%20CB%20-%20One%20Sided%20Offset.ntop)。  
+   适合：建立个人 My Blocks Folder，把常用导出、移动、包围盒取点、单侧偏移等操作做成工具箱。
+
+2. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[CB Stochastic Lattice](https://learn.ntop.com/courses/230-intro-to-automation/lessons/download-cb-stochastic-lattice/)** · 新增：2026-05-24 · nTop Learn；`.ntop` custom block + 使用示例。  
+   文件：[`CB - Stochastic Lattice.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_9_1%20CB%20-%20Stochastic%20Lattice.ntop)、[`Using a Custom Block.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_9_2%20Using%20a%20Custom%20Block.ntop)、[`Completed Stochastic Lattice Workflow.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_3_1%20%26%208_1%20Completed%20--%20Stochastic%20Lattice%20Workflow.ntop)。  
+   适合：把 Voronoi / stochastic lattice workflow 封装成可复用模块，用在支架、鞋底、泡沫结构和轻量化内芯。
+
+3. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Guide to Conformal Latticing](https://support.ntop.com/hc/en-us/articles/29651196870035-Guide-to-Conformal-Latticing)** · 新增：2026-05-24 · Support，更新 2026-05-18；Custom Block + Example File。  
+   文件：[`CB - Conformal Lattice Skin.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/CB%20-%20Conformal%20Lattice%20Skin.ntop)、[`Conformal Lattice Skin Example File.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Conformal%20Lattice%20Skin%20Example%20File.ntop)。  
+   适合：conformal lattice、表面晶格皮肤、曲面贴合 lattice、Delaunay / Voronoi / quad mesh 晶格方案对比。
+
+4. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to measure surface roughness](https://support.ntop.com/hc/en-us/articles/7257188263699-How-to-measure-surface-roughness)** · 新增：2026-05-24 · Support，更新 2026-05-18；`Surface Analysis V1` custom block。  
+   文件：[`Surface Analysis V1 - CB`](https://ntopology.box.com/s/2i62s4yz2ngixyrrh3omp50ch3hxhvf3)。  
+   适合：把程序纹理从“看起来不错”推进到可量化，测 Ra、Rq、skewness、kurtosis 等表面粗糙度指标。
+
+5. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to create equidistant planes on a curve](https://support.ntop.com/hc/en-us/articles/25440621211027-How-to-create-equidistant-planes-on-a-curve)** · 新增：2026-05-24 · Support，更新 2026-05-18；两个 custom block + Example File。  
+   文件：[`Spiral Curve`](https://ntop.box.com/s/dzn1o2agomz8n2ehzexmsh471vzhq4bg)、[`Planes Following a Curve`](https://ntop.box.com/s/9rtjl54bb802kqgx55u2wu4hxwh76elp)、[`Equidistant Planes on Curve Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Equidistant%20Planes%20on%20Curve%20Example.ntop)。  
+   适合：沿曲线阵列、螺旋纹理、knurl / perforation 的路径控制，以及需要稳定方向帧的装饰结构。
+
+6. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to slice by tiers](https://support.ntop.com/hc/en-us/articles/4408945215251-How-to-slice-by-tiers)** · 新增：2026-05-24 · Support，更新 2026-05-18；Custom Block + Example File。  
+   文件：[`CLI Slice Body by Tiers.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Additive%20Manufacturing%20Preparation/CLI%20Slice%20Body%20by%20Tiers.ntop)、[`Slice By Tiers Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Additive%20Manufacturing%20Preparation/Slice%20By%20Tiers%20Example.ntop)。  
+   适合：大模型切片、CLI 输出、复杂模型分层导出和避免 Slice Body 一次性计算崩溃。
+
+7. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Run Command block](https://support.ntop.com/hc/en-us/articles/23766024928787-How-to-use-Run-Command-block)** · 新增：2026-05-24 · Support，更新 2026-05-18；多个 `.ntop` / zip 示例。  
+   文件：[`Files in Directory.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/User%20Interface/Run%20Command%201-%20Files%20in%20directory.ntop)、[`Run Command 1 Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/User%20Interface/Run%20Command%201-%20Example.ntop)、[`2D Plot.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/User%20Interface/Run%20Command%202-%202D%20Plot.ntop)、[`Plot.zip`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/User%20Interface/Run%20Command%202-%20Plot.zip)、[`fluent_example.zip`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/User%20Interface/Run%20Command%203-%20fluent_example.zip)。  
+   适合：把 nTop workflow 接到 PowerShell、Python、Fluent、外部仿真/制造流程，做真正的自动化工具链。
+
+8. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Parametric Aircraft Design](https://learn.ntop.com/courses/parametric-aircraft-modeling/)** · 新增：2026-05-24 · nTop Learn；课程 + 多个 downloadable `.ntop` custom blocks。  
+   适合：把 wing、fuselage、ducting、empennage 拆成可复用 aircraft component blocks，学习大型参数化系统如何组织。
+
+9. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Creating a Parametric Jet Model with nTop Blocks](https://www.ntop.com/resources/videos/creating-a-parametric-jet-model-with-ntop-blocks/)** · 新增：2026-05-24 · 视频，2025-04-04；自定义可复用 blocks 演示。  
+   适合：看完整飞机如何由 fuselage、wings、ducts、tails 等 modular user-defined blocks 拼起来，是“建一个自己的 block system”的好参照。
+
+10. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Topology Tiles - Hex](https://thangs.com/designer/DaveMakesStuff/3d-model/Topology%20Tiles%20%E2%80%93%20Hex-955066)** / **[Square](https://thangs.com/models/955067)** · 新增：2026-05-24 · 社区 3D model；TPMS / minimal surface 风格装饰砖。  
+    适合：数学艺术、TPMS pattern、声学扩散板、墙面装饰、可打印模块化纹理；源码不一定公开，但形状灵感很强。
 
 ## 学习路线
 
@@ -253,6 +294,7 @@
 | 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、random pattern、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | How to use fields、Two-body field、Remap Field block |
+| Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Parametric Aircraft / Jet Blocks、Topology Tiles |
 | 晶格结构 | Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Hyper-realistic 3D textures、Procedural textures |
 | 拓扑优化 | Intro to Topology Optimization、Topology reconstruction video、Custom Field Optimization Component |
