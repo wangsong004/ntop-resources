@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-05-24
+最后更新：2026-05-25
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -118,6 +118,37 @@
 
 10. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Topology Tiles - Hex](https://thangs.com/designer/DaveMakesStuff/3d-model/Topology%20Tiles%20%E2%80%93%20Hex-955066)** / **[Square](https://thangs.com/models/955067)** · 新增：2026-05-24 · 社区 3D model；TPMS / minimal surface 风格装饰砖。  
     适合：数学艺术、TPMS pattern、声学扩散板、墙面装饰、可打印模块化纹理；源码不一定公开，但形状灵感很强。
+
+## Mix Block / 场混合
+
+> 这组专门收集 Mix block、Ramp + Mix、两个标量场/隐式体混合、TPMS 过渡、profile loft、bitmap / texture 混合和多域周期结构案例。优先保留带 `.ntop`、Example File、Download file、视频或可跟做教程的资源。
+
+1. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Mix Block](https://learn.ntop.com/courses/220-intro-to-field-driven-design/lessons/mix-block/)** · 新增：2026-05-25 · nTop Learn；官方 block 课程。  
+   适合：理解 Mix 的核心逻辑：Factor 在 0 到 1 之间控制 Scalar Field A / B 的比例；配合 Ramp 可以让 Box/Cone、Gyroid/Neovius 等形状做空间渐变；最后用 `Set Field Bounding Box` 清理可视化边界。
+
+2. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to blend TPMS types together](https://support.ntop.com/hc/en-us/articles/360043565833-How-to-blend-TPMS-types-together)** · 新增：2026-05-25 · Support，更新 2026-05-18；提供 `Example File`。  
+   适合：最直接的 Mix 应用案例，用 Ramp 驱动 Gyroid 和 Schwarz / TPMS 之间的过渡，练习 Factor、Bounding Box、Set Field Bounding Box 的完整流程。
+
+3. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · 新增：2026-05-25 · Support，更新 2026-05-18；提供 `Example File`。  
+   适合：用 Mix 方法在两个 profile 之间做平滑 loft，尤其适合学习“两个截面场混合成一个过渡体”的建模思路。
+
+4. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Field Driven Bracket](https://learn.ntop.com/courses/220-intro-to-field-driven-design/lessons/follow-along-field-driven-bracket/)** · 新增：2026-05-25 · nTop Learn；视频课程 + `Starter — Field Driven Bracket.ntop` + PDF。  
+   适合：在一个完整 bracket 项目里看 Ramp、Transfer Function、Mix 串起来怎么用；里面用 Mix 把 lattice body 和 inner body 按场混合，是很好的实战 notebook。
+
+5. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to map a bitmap onto a curved surface](https://support.ntop.com/hc/en-us/articles/5384098529555-How-to-map-a-bitmap-onto-a-curved-surface)** · 新增：2026-05-25 · Support，更新 2026-05-18；提供 `Example file` + `CB - Remap Spherical Field Z`。  
+   适合：把 bitmap 灰度场映射到曲面后，用 Offset Body + Mix 做 deboss / relief，是做 logo、奖章、吊坠、球面装饰纹理的实用案例。
+
+6. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Advanced texturing for industrial design applications](https://www.ntop.com/resources/videos/ntop-live-texturing-for-industrial-applications/)** · 新增：2026-05-25 · 视频，2020-04-24；提供 `Download file`。  
+   适合：看 boolean 和 mix functions 如何在产品表面纹理里做 combine、blend、transition，偏工业设计/工艺品外观方向。
+
+7. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Methods for blending TPMS and lattices without the mix block](https://support.ntop.com/hc/en-us/articles/4412634253715-Methods-for-blending-TPMS-and-lattices-without-the-mix-block)** · 新增：2026-05-25 · Support，更新 2026-05-18；提供 3 个 `Example File`。  
+   适合：Mix 的替代/进阶思路：Sine Wave transition、Inverse Distance Weighting、equation based blending；适合需要多个中心、多种 TPMS 或更复杂过渡控制时参考。
+
+8. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Interpolating with implicit modeling](https://www.ntop.com/blog/interpolating-with-implicit-modeling/)** · 新增：2026-05-25 · Blog，2019-04-12。  
+   适合：从理论上理解 `mix(A, B, t) = (1-t)A + tB`，包括 loft-like blending、morphing、midsurface 和 interference removal，能帮你判断 Mix 为什么会生成这种过渡效果。
+
+9. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Periodic structures with multiple domains for heat transfer and beyond](https://www.ntop.com/resources/videos/ntop-live-periodic-structures-with-multiple-domains-for-heat-transfer-and-beyond/)** · 新增：2026-05-25 · 视频，2020-04-27；提供 `Download file`。  
+   适合：多域周期结构、3D halftoning、开放/封闭流道分层混合，适合把“场混合”扩展到换热器、反应器和复杂流体通道设计。
 
 ## 学习路线
 
@@ -301,6 +332,7 @@
 | 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、random pattern、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | How to use fields、Two-body field、Remap Field block、Remap Field scale/translate |
+| Mix Block / 场混合 | Mix Block、Blend TPMS、Loft between profiles、Field Driven Bracket、Bitmap curved surface |
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Parametric Aircraft / Jet Blocks、Topology Tiles |
 | 晶格结构 | Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Hyper-realistic 3D textures、Procedural textures |
