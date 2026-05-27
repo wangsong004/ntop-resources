@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-05-26
+最后更新：2026-05-27
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -83,7 +83,7 @@
 > 这组专门收集可复用 custom blocks、能拆开学习的参数化 notebook，以及社区里特别有形状启发的 nTop / nTopology 作品。优先保留带 `.ntop`、Example File、Downloadable Files、模型文件或视频演示的资源。
 
 1. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Commonly Used Custom Blocks](https://learn.ntop.com/courses/230-intro-to-automation/lessons/commonly-used-custom-blocks/)** · 新增：2026-05-24 · nTop Learn；多个 `.ntop` custom block。  
-   文件：[`CB - Mesh Export.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_1%20CB%20-%20Mesh%20Export.ntop)、[`CB - Move Object.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_2%20CB%20-%20Move%20Object.ntop)、[`CB - Point from Bounding Box.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_3%20CB%20-%20Point%20from%20Bounding%20Box.ntop)、[`CB - One Sided Offset.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_4%20CB%20-%20One Sided Offset.ntop)。  
+   文件：[`CB - Mesh Export.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_1%20CB%20-%20Mesh%20Export.ntop)、[`CB - Move Object.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_2%20CB%20-%20Move%20Object.ntop)、[`CB - Point from Bounding Box.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_3%20CB%20-%20Point%20from%20Bounding%20Box.ntop)、[`CB - One Sided Offset.ntop`](https://files.learn.ntop.com/Courses/230%20Intro%20to%20Automation/nTop%20Files/230_7_4%20CB%20-%20One%20Sided%20Offset.ntop)。  
    适合：建立个人 My Blocks Folder，把常用导出、移动、包围盒取点、单侧偏移等操作做成工具箱。
 
 2. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[CB Stochastic Lattice](https://learn.ntop.com/courses/230-intro-to-automation/lessons/download-cb-stochastic-lattice/)** · 新增：2026-05-24 · nTop Learn；`.ntop` custom block + 使用示例。  
@@ -118,6 +118,23 @@
 
 10. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Topology Tiles - Hex](https://thangs.com/designer/DaveMakesStuff/3d-model/Topology%20Tiles%20%E2%80%93%20Hex-955066)** / **[Square](https://thangs.com/models/955067)** · 新增：2026-05-24 · 社区 3D model；TPMS / minimal surface 风格装饰砖。  
     适合：数学艺术、TPMS pattern、声学扩散板、墙面装饰、可打印模块化纹理；源码不一定公开，但形状灵感很强。
+
+## Mix block / Field blending
+
+> 这组把之前丢掉的 Mix / field blending 思路补回来。重点看 nTop 如何用 Mix、Ramp、distance field 和插值公式在两个隐式体、TPMS、profile 或晶格之间做平滑过渡。
+
+1. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to blend TPMS types together](https://support.ntop.com/hc/en-us/articles/360043565833-How-to-blend-TPMS-types-together)** · 新增：2026-05-27 · Support，更新 2026-05-18；`Example File`：[Gyroid Blend.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Gyroid%20Blend.ntop)。  
+   适合：正式学习 Mix block + Ramp 的核心用法，用 0-1 factor 在 Gyroid 和 Schwarz 等 TPMS 隐式场之间做平滑混合。
+
+2. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Methods for blending TPMS and lattices without the mix block](https://support.ntop.com/hc/en-us/articles/4412634253715-Methods-for-blending-TPMS-and-lattices-without-the-mix-block)** · 新增：2026-05-27 · Support，更新 2026-05-18；多个 `.ntop` 示例 + custom block。  
+   文件：[`Blend Lattice with Sine.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Blend%20Lattice%20with%20Sine.ntop)、[`Inverse Distance Weighting Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Inverse%20Distance%20Weighting%20Example.ntop)、[`Gyroid to Split P.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Gyroid%20to%20Split%20P.ntop)、[`Shepard.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Shepard.ntop)。  
+   适合：理解 Mix block 背后的插值思想，学习 sine transition、inverse distance weighting、equation-based TPMS 过渡和自定义权重场。
+
+3. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · 新增：2026-05-27 · Support，更新 2026-05-18；`Example File`：[loft_profiles.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Implicit%20Modeling/loft_profiles.ntop)。  
+   适合：Profile 概念、Mix method for lofting profiles、解决 loft 过渡不光顺的问题；这是你之前 README 里“Mix loft 思路”的明确恢复版。
+
+4. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Interpolating with implicit modeling](https://www.ntop.com/blog/interpolating-with-implicit-modeling/)** · 新增：2026-05-27 · Blog，2019-04-12；理论文章。  
+   适合：理解 `mix(R, W, t) = (1-t) * R + t * W` 这种隐式场插值本质，覆盖 loft-like blending、morphing、midsurface 和 interference removal。
 
 ## 学习路线
 
@@ -165,7 +182,7 @@
    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) ![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) 已读：2026-05-10 · 五星  
    适合：remap field、mirroring/arraying/orienting、image on body、shape field warping、cylindrical remap。
 
-12. **[How to generate random patterns on the surface of a part](https://support.ntop.com/hc/en-us/articles/1500003975321-How-to-generate-random-patterns-on-the-surface-of-a-part)** · Support；提供 `.ntop` notebook：[Random Pattern on Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Random Pattern on Part Example.ntop)。  
+12. **[How to generate random patterns on the surface of a part](https://support.ntop.com/hc/en-us/articles/1500003975321-How-to-generate-random-patterns-on-the-surface-of-a-part)** · Support；提供 `.ntop` notebook：[Random Pattern on Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Random%20Pattern%20on%20Part%20Example.ntop)。  
    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
    适合：随机表面图案、纹理扰动、field-driven 外观变化和工艺品表面装饰。
 
@@ -308,9 +325,9 @@
 | 刚入门 | Dashboard examples、nTop Learn、Loft between profiles、What is implicit modeling |
 | 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、random pattern、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
-| Field-driven design | How to use fields、Two-body field、Remap Field block、Remap Field scale/translate |
+| Field-driven design | Mix block / Field blending、How to use fields、Two-body field、Remap Field block、Remap Field scale/translate |
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Parametric Aircraft / Jet Blocks、Topology Tiles |
-| 晶格结构 | Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
+| 晶格结构 | Blend TPMS types、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Hyper-realistic 3D textures、Procedural textures |
 | 拓扑优化 | Intro to Topology Optimization、Users' Guide to Topology Optimization、Topology reconstruction video、Custom Field Optimization Component |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
