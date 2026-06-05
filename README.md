@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-05-27
+最后更新：2026-06-05
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -171,10 +171,16 @@
    文件：[`Topology Optimization Examples.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Topology%20Optimization/Topology%20Optimization%20Examples.ntop)、[`Topology Optimization Examples.zip`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Topology%20Optimization/Topology%20Optimization%20Examples.zip)。  
    适合：从约束、载荷、制造区到结果解释的完整拓扑优化流程，适合系统复盘 nTop 里的 optimization setup。
 
-9. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Remap Field to scale or translate an object](https://support.ntop.com/hc/en-us/articles/4407263917331-How-to-use-Remap-Field-to-scale-or-translate-an-object)** · 新增：2026-05-24 · Support，更新 2026-04-06；`Example file`：[Remap Field to Scale or Translate Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Fields/Remap%20Field%20to%20Scale%20or%20Translate%20Example.ntop)。  
+9. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to run a topology optimization](https://support.ntop.com/hc/en-us/articles/360044051214-How-to-run-a-topology-optimization)** · 新增：2026-06-05 · Support；`Example File`：[How_to_run_a_topology_optimization.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Topology%20Optimization/How_to_run_a_topology_optimization.ntop)。  
+   适合：第一次完整走通拓扑优化 setup，串起 design space、载荷/约束、目标函数与结果解释，适合拿来直接跟做。
+
+10. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How do I use the Remap Constraint for Topology Optimization?](https://support.ntop.com/hc/en-us/articles/1500005927541-How-do-I-use-the-Remap-Constraint-for-Topology-Optimization)** · 新增：2026-06-05 · Support；`Example File`：[RemapConstraintforTopologyOptimization.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Topology%20Optimization/RemapConstraintforTopologyOptimization.ntop)。  
+   适合：想把 field / Remap Constraint 引入拓扑优化的人，尤其适合做局部制造偏好、形态引导和更有“设计味”的 optimization。
+
+11. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Remap Field to scale or translate an object](https://support.ntop.com/hc/en-us/articles/4407263917331-How-to-use-Remap-Field-to-scale-or-translate-an-object)** · 新增：2026-05-24 · Support，更新 2026-04-06；`Example file`：[Remap Field to Scale or Translate Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Fields/Remap%20Field%20to%20Scale%20or%20Translate%20Example.ntop)。  
    适合：把缩放和位移做成 field-driven 变化，练习 Remap Field、渐变变形、阵列过渡和更灵活的隐式建模调参。
 
-10. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to add fillets to lattices](https://support.ntop.com/hc/en-us/articles/360053643474-How-to-add-fillets-to-lattices)** · 新增：2026-05-24 · Support，更新 2026-04-02；3 个 `Example file`。  
+12. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to add fillets to lattices](https://support.ntop.com/hc/en-us/articles/360053643474-How-to-add-fillets-to-lattices)** · 新增：2026-05-24 · Support，更新 2026-04-02；3 个 `Example file`。  
    文件：[`fillet_ribs.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/fillet_ribs.ntop)、[`custom_unit_cell_fillet.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/custom_unit_cell_fillet.ntop)、[`fillet_spheres.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/fillet_spheres.ntop)。  
    适合：晶格圆角、rib/joint 过渡、custom unit cell 细节修饰，以及提升 lattice 可制造性和外观完成度。
 
@@ -329,7 +335,7 @@
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Parametric Aircraft / Jet Blocks、Topology Tiles |
 | 晶格结构 | Blend TPMS types、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Hyper-realistic 3D textures、Procedural textures |
-| 拓扑优化 | Intro to Topology Optimization、Users' Guide to Topology Optimization、Topology reconstruction video、Custom Field Optimization Component |
+| 拓扑优化 | How to run a topology optimization、Remap Constraint for Topology Optimization、Users' Guide to Topology Optimization、Topology reconstruction video、Custom Field Optimization Component |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Thermal management、nTop Fluids |
 | 仿真 / 网格 | Surface mesh、FE Mesh for complex shell lattice、Robust meshing、Lattice Simulation files |
