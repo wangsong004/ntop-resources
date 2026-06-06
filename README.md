@@ -196,11 +196,11 @@
    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) ![标星](https://img.shields.io/badge/%E6%A0%87%E6%98%9F-red) 已读：2026-05-10 · 五星  
    适合：remap field、mirroring/arraying/orienting、image on body、shape field warping、cylindrical remap。
 
-12. **[How to generate random patterns on the surface of a part](https://support.ntop.com/hc/en-us/articles/1500003975321-How-to-generate-random-patterns-on-the-surface-of-a-part)** · Support；提供 `.ntop` notebook：[Random Pattern on Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Random Pattern on Part Example.ntop)。  
+12. **[How to generate random patterns on the surface of a part](https://support.ntop.com/hc/en-us/articles/1500003975321-How-to-generate-random-patterns-on-the-surface-of-a-part)** · Support；提供 `.ntop` notebook：[Random Pattern on Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Random%20Pattern%20on%20Part%20Example.ntop)。  
    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
    适合：随机表面图案、纹理扰动、field-driven 外观变化和工艺品表面装饰。
 
-13. **[How to create perforations on any part](https://support.ntop.com/hc/en-us/articles/1500012943262-How-to-create-perforations-on-any-part)** · Support；提供 `.ntop` notebook：[Perforated Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Implicit%20Modeling/Perforated Part Example.ntop)。  
+13. **[How to create perforations on any part](https://support.ntop.com/hc/en-us/articles/1500012943262-How-to-create-perforations-on-any-part)** · Support；提供 `.ntop` notebook：[Perforated Part Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Implicit%20Modeling/Perforated%20Part%20Example.ntop)。  
    > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
    适合：可变孔洞、穿孔外壳、轻量化表皮和由 field 控制的孔径变化。
 
@@ -208,11 +208,11 @@
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
     适合：Simplex Noise、Ramp 控制 beam thickness、Voronoi Volume Lattice、随机泡沫结构。
 
-15. **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · Support，2026-03-02；提供 `.ntop` notebook：[Voronoi Surface Texture Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Voronoi Surface Texture Example.ntop)。  
+15. **[How to create a Voronoi surface texture](https://support.ntop.com/hc/en-us/articles/360042365673-How-to-create-a-Voronoi-surface-texture)** · Support，2026-03-02；提供 `.ntop` notebook：[Voronoi Surface Texture Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Textures/Voronoi%20Surface%20Texture%20Example.ntop)。  
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
     适合：Random Points on Mesh、Voronoi Surface Lattice、Boolean Subtract、仿皮革/浮雕/凹纹。
 
-16. **[How to build a structural lattice on a CAD face](https://support.ntop.com/hc/en-us/articles/360042295414-How-to-build-a-structural-lattice-on-a-CAD-face)** · Support，2026-04-02；提供 `.ntop` notebook：[Structural Ribbing.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Structural Ribbing.ntop)。  
+16. **[How to build a structural lattice on a CAD face](https://support.ntop.com/hc/en-us/articles/360042295414-How-to-build-a-structural-lattice-on-a-CAD-face)** · Support，2026-04-02；提供 `.ntop` notebook：[Structural Ribbing.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/Structural%20Ribbing.ntop)。  
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-23 · SEED 2026-05-11  
     适合：CAD face 上生成 honeycomb / conformal lattice，学习 `Cell Map from CAD Face`。
 
