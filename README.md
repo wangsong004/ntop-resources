@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-06-13
+最后更新：2026-06-14
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -210,10 +210,16 @@
    文件：[`340_14_1 Complete — TopOpt & Post Processing.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_14_1%20Complete%20--%20TopOpt%20%26%20Post%20Processing.ntop)。  
    适合：想直接对照完整成品复盘拓扑优化后处理 notebook 组织方式的人，尤其适合边看成品边回查平滑、布尔并集和接口恢复步骤。  
 
-16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Remap Field to scale or translate an object](https://support.ntop.com/hc/en-us/articles/4407263917331-How-to-use-Remap-Field-to-scale-or-translate-an-object)** · 新增：2026-05-24 · Support，更新 2026-04-06；`Example file`：[Remap Field to Scale or Translate Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Fields/Remap%20Field%20to%20Scale%20or%20Translate%20Example.ntop)。  
+16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Running Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/running-topology-optimization/)** · 新增：2026-06-14 · nTop Learn；课程主线 lesson。  
+   适合：已经搭好 FE 模型和约束、想补齐求解阶段判断逻辑的人，适合系统理解拓扑优化运行节奏、迭代观察和结果收敛前后的检查点。  
+
+17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Answer to TopOpt Test Problem](https://learn.ntop.com/courses/340-topology-optimization/lessons/answer-to-topopt-test-problem/)** · 新增：2026-06-14 · nTop Learn；课程答案页。  
+   适合：做完前面 follow-along 后想快速对答案的人，适合校验目标函数理解、结果预期和整套 topopt 教学链路有没有吃透。  
+
+18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Remap Field to scale or translate an object](https://support.ntop.com/hc/en-us/articles/4407263917331-How-to-use-Remap-Field-to-scale-or-translate-an-object)** · 新增：2026-05-24 · Support，更新 2026-04-06；`Example file`：[Remap Field to Scale or Translate Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Fields/Remap%20Field%20to%20Scale%20or%20Translate%20Example.ntop)。  
    适合：把缩放和位移做成 field-driven 变化，练习 Remap Field、渐变变形、阵列过渡和更灵活的隐式建模调参。  
 
-17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to add fillets to lattices](https://support.ntop.com/hc/en-us/articles/360053643474-How-to-add-fillets-to-lattices)** · 新增：2026-05-24 · Support，更新 2026-04-02；3 个 `Example file`。  
+19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to add fillets to lattices](https://support.ntop.com/hc/en-us/articles/360053643474-How-to-add-fillets-to-lattices)** · 新增：2026-05-24 · Support，更新 2026-04-02；3 个 `Example file`。  
    文件：[`fillet_ribs.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/fillet_ribs.ntop)、[`custom_unit_cell_fillet.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/custom_unit_cell_fillet.ntop)、[`fillet_spheres.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/fillet_spheres.ntop)。  
    适合：晶格圆角、rib/joint 过渡、custom unit cell 细节修饰，以及提升 lattice 可制造性和外观完成度。  
 
@@ -384,7 +390,7 @@
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Part labeling、Parametric Aircraft / Jet Blocks、Topology Tiles |
 | 晶格结构 | Blend TPMS types、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Surface roughness、Hyper-realistic 3D textures、Procedural textures |
-| 拓扑优化 | How to run a topology optimization、Objectives and Constraints、FE Model and Boundary Conditions、Topology Optimization follow-along、Post Processing、TopOpt & Post Processing complete file、Remap Constraint for Topology Optimization |
+| 拓扑优化 | How to run a topology optimization、Objectives and Constraints、FE Model and Boundary Conditions、Running Topology Optimization、Topology Optimization follow-along、Post Processing、TopOpt & Post Processing complete file、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Double Pipe HEX、Core and Baffles、Thermal management、nTop Fluids |
 | 仿真 / 网格 | Surface mesh、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
