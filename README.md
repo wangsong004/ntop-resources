@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-06-14
+最后更新：2026-06-16
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -85,6 +85,14 @@
 12. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Adding an Image](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-adding-an-image/)** · 新增：2026-06-08 · nTop Learn；`.ntop` starter file + custom blocks + PNG + follow-along PDF，课程页标注 last updated in `nTop 5.13.2`。  
     文件：[`311_22_Starter -- Adding an Image.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_22_Starter%20--%20Adding%20an%20Image.ntop)、[`311_22_CB Implicit Body from Logo.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_22_CB%20Implicit%20Body%20from%20Logo.ntop)、[`311_22_pattern.png`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/Images/311_22_pattern.png)、[`311_22_Follow Along - Adding an Image.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_22_Follow%20Along%20-%20Adding%20an%20Image.pdf)。  
     适合：想把位图、Logo 或灰度图真正做成可打印表面纹理的人，顺手练习 image field、trim box、logo 转 implicit body 和消费品外观表达。
+
+13. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Adding Roughness](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-adding-roughness/)** · 新增：2026-06-16 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。  
+    文件：[`311_8_Starter -- Adding Roughness.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_8_Starter%20--%20Adding%20Roughness.ntop)、[`311_8_Follow Along - Adding Roughness.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_8_Follow%20Along%20-%20Adding%20Roughness.pdf)。  
+    适合：想把表面粗糙度做成可控视觉语言的人，适合练习 noise field、roughness 幅值控制和偏工艺品外观的细节塑形。
+
+14. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Procedural Texturing](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-procedural-texturing/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。  
+    文件：[`311_12_Complete -- Procedural Texturing.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_12_Complete%20--%20Procedural%20Texturing.ntop)。  
+    适合：想直接拆完整程序纹理工程的人，适合对照学习噪声场、纹理映射和消费品表面纹理的完整搭建方式。
 
 ## Custom Blocks / 有趣形状
 
