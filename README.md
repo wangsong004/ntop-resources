@@ -94,6 +94,14 @@
     文件：[`311_12_Complete -- Procedural Texturing.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_12_Complete%20--%20Procedural%20Texturing.ntop)。  
     适合：想直接拆完整程序纹理工程的人，适合对照学习噪声场、纹理映射和消费品表面纹理的完整搭建方式。
 
+15. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Creating Ribs](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-creating-ribs/)** · 新增：2026-06-16 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。  
+    文件：[`311_3_Starter -- Creating Ribs.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_3_Starter%20--%20Creating%20Ribs.ntop)、[`311_3_Follow Along - Creating Ribs.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_3_Follow%20Along%20-%20Creating%20Ribs.pdf)。  
+    适合：想把加强筋做成贴合曲面的结构语言的人，适合练习 periodic lattice、cell map from CAD face / quad mesh，以及兼顾功能与外观的 conformal ribbing。
+
+16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-orienting-bodies-on-a-surface/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。  
+    文件：[`311_18_Complete -- Orienting Bodies onto a Surface.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_18_Complete%20--%20Orienting%20Bodies%20onto%20a%20Surface.ntop)。  
+    适合：想把小体素/纹样稳定铺到复杂曲面上的人，适合直接拆完整 notebook 学习 `Orient Object`、表面贴附纹理和消费品外壳细节表达。
+
 ## Custom Blocks / 有趣形状
 
 > 这组专门收集可复用 custom blocks、能拆开学习的参数化 notebook，以及社区里特别有形状启发的 nTop / nTopology 作品。优先保留带 `.ntop`、Example File、Downloadable Files、模型文件或视频演示的资源。
