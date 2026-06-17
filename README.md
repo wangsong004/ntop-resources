@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-06-16
+最后更新：2026-06-17
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -98,7 +98,15 @@
     文件：[`311_3_Starter -- Creating Ribs.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_3_Starter%20--%20Creating%20Ribs.ntop)、[`311_3_Follow Along - Creating Ribs.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_3_Follow%20Along%20-%20Creating%20Ribs.pdf)。  
     适合：想把加强筋做成贴合曲面的结构语言的人，适合练习 periodic lattice、cell map from CAD face / quad mesh，以及兼顾功能与外观的 conformal ribbing。
 
-16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-orienting-bodies-on-a-surface/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。  
+16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Procedural Texturing](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-procedural-texturing/)** · 新增：2026-06-17 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。
+    文件：[`311_11_Starter -- Procedural Texturing.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_11_Starter%20--%20Procedural%20Texturing.ntop)、[`311_11_Follow Along - Procedural Texturing.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_11_Follow%20Along%20-%20Procedural%20Texturing.pdf)。
+    适合：想从 starter file 一步步搭出程序纹理的人，适合练习 noise field、surface wrap、纹理层级控制和消费品外观细化。
+
+17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-orienting-bodies-on-a-surface/)** · 新增：2026-06-17 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。
+    文件：[`311_17_Starter -- Orienting Bodies onto a Surface.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_17_Starter%20--%20Orienting%20Bodies%20onto%20a%20Surface.ntop)、[`311_17_Follow Along - Orienting Bodies on a Surface.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_17_Follow%20Along%20-%20Orienting%20Bodies%20on%20a%20Surface.pdf)。
+    适合：想把小体素、纹样或装饰单元稳定铺到复杂曲面上的人，适合练习 `Orient Object`、曲面法向控制和表面贴附外观表达。
+
+18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-orienting-bodies-on-a-surface/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
     文件：[`311_18_Complete -- Orienting Bodies onto a Surface.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_18_Complete%20--%20Orienting%20Bodies%20onto%20a%20Surface.ntop)。  
     适合：想把小体素/纹样稳定铺到复杂曲面上的人，适合直接拆完整 notebook 学习 `Orient Object`、表面贴附纹理和消费品外壳细节表达。
 
