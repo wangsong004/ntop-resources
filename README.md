@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-06-17
+最后更新：2026-06-18
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -106,7 +106,15 @@
     文件：[`311_17_Starter -- Orienting Bodies onto a Surface.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_17_Starter%20--%20Orienting%20Bodies%20onto%20a%20Surface.ntop)、[`311_17_Follow Along - Orienting Bodies on a Surface.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_17_Follow%20Along%20-%20Orienting%20Bodies%20on%20a%20Surface.pdf)。
     适合：想把小体素、纹样或装饰单元稳定铺到复杂曲面上的人，适合练习 `Orient Object`、曲面法向控制和表面贴附外观表达。
 
-18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-orienting-bodies-on-a-surface/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
+18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Adding Roughness](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-adding-roughness/)** · 新增：2026-06-18 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
+    文件：[`311_9_Complete -- Adding Roughness.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_9_Complete%20--%20Adding%20Roughness.ntop)。
+    适合：想直接拆完整粗糙度纹理工程的人，适合对照学习 noise field、roughness 幅值控制和消费品外观细节塑形的完整搭建方式。
+
+19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Adding an Image](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-adding-an-image/)** · 新增：2026-06-18 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 4.14.2`。
+    文件：[`311_23_Complete -- Adding an Image.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_23_Complete%20--%20Adding%20an%20Image.ntop)。
+    适合：想直接复盘 bitmap/logo 转可打印表面纹理完整工程的人，适合对照学习 image field、implicit body 转换和装饰性外观表达。
+
+20. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-orienting-bodies-on-a-surface/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
     文件：[`311_18_Complete -- Orienting Bodies onto a Surface.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_18_Complete%20--%20Orienting%20Bodies%20onto%20a%20Surface.ntop)。  
     适合：想把小体素/纹样稳定铺到复杂曲面上的人，适合直接拆完整 notebook 学习 `Orient Object`、表面贴附纹理和消费品外壳细节表达。
 
