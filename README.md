@@ -98,23 +98,27 @@
     文件：[`311_3_Starter -- Creating Ribs.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_3_Starter%20--%20Creating%20Ribs.ntop)、[`311_3_Follow Along - Creating Ribs.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_3_Follow%20Along%20-%20Creating%20Ribs.pdf)。  
     适合：想把加强筋做成贴合曲面的结构语言的人，适合练习 periodic lattice、cell map from CAD face / quad mesh，以及兼顾功能与外观的 conformal ribbing。
 
-16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Procedural Texturing](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-procedural-texturing/)** · 新增：2026-06-17 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。
+16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Creating Ribs](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-creating-ribs/)** · 新增：2026-06-28 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。  
+    文件：[`311_4_Complete -- Creating Ribs.ntop`](https://storage.googleapis.com/files-learn/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_4_Complete%20--%20Creating%20Ribs.ntop)。  
+    适合：想直接拆完整 conformal ribbing 成品工程的人，适合对照学习加强筋在曲面上的铺设、参数组织，以及兼顾结构补强与外观语言的 notebook 搭建方式。
+
+17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Procedural Texturing](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-procedural-texturing/)** · 新增：2026-06-17 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。
     文件：[`311_11_Starter -- Procedural Texturing.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_11_Starter%20--%20Procedural%20Texturing.ntop)、[`311_11_Follow Along - Procedural Texturing.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_11_Follow%20Along%20-%20Procedural%20Texturing.pdf)。
     适合：想从 starter file 一步步搭出程序纹理的人，适合练习 noise field、surface wrap、纹理层级控制和消费品外观细化。
 
-17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-orienting-bodies-on-a-surface/)** · 新增：2026-06-17 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。
+18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-orienting-bodies-on-a-surface/)** · 新增：2026-06-17 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。
     文件：[`311_17_Starter -- Orienting Bodies onto a Surface.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_17_Starter%20--%20Orienting%20Bodies%20onto%20a%20Surface.ntop)、[`311_17_Follow Along - Orienting Bodies on a Surface.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_17_Follow%20Along%20-%20Orienting%20Bodies%20on%20a%20Surface.pdf)。
     适合：想把小体素、纹样或装饰单元稳定铺到复杂曲面上的人，适合练习 `Orient Object`、曲面法向控制和表面贴附外观表达。
 
-18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Adding Roughness](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-adding-roughness/)** · 新增：2026-06-18 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
+19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Adding Roughness](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-adding-roughness/)** · 新增：2026-06-18 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
     文件：[`311_9_Complete -- Adding Roughness.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_9_Complete%20--%20Adding%20Roughness.ntop)。
     适合：想直接拆完整粗糙度纹理工程的人，适合对照学习 noise field、roughness 幅值控制和消费品外观细节塑形的完整搭建方式。
 
-19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Adding an Image](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-adding-an-image/)** · 新增：2026-06-18 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 4.14.2`。
+20. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Adding an Image](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-adding-an-image/)** · 新增：2026-06-18 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 4.14.2`。
     文件：[`311_23_Complete -- Adding an Image.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_23_Complete%20--%20Adding%20an%20Image.ntop)。
     适合：想直接复盘 bitmap/logo 转可打印表面纹理完整工程的人，适合对照学习 image field、implicit body 转换和装饰性外观表达。
 
-20. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-orienting-bodies-on-a-surface/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
+21. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Orienting Bodies on a Surface](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-orienting-bodies-on-a-surface/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。
     文件：[`311_18_Complete -- Orienting Bodies onto a Surface.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_18_Complete%20--%20Orienting%20Bodies%20onto%20a%20Surface.ntop)。  
     适合：想把小体素/纹样稳定铺到复杂曲面上的人，适合直接拆完整 notebook 学习 `Orient Object`、表面贴附纹理和消费品外壳细节表达。
 
@@ -226,11 +230,15 @@
    文件：[`210_9_1 Starter--Periodic Lattice.ntop`](https://files.learn.ntop.com/Courses/210%20Intro%20to%20Lattices/nTop%20Files/210_9_1%20Starter--Periodic%20Lattice.ntop)、[`210_9_1 Follow Along - Periodic Lattices.pdf`](https://files.learn.ntop.com/Courses/210%20Intro%20to%20Lattices/PDFs/210_9_1%20Follow%20Along%20-%20Periodic%20Lattices.pdf)。  
    适合：想从 starter file 跑一遍最基础 periodic lattice 工作流的人，适合练习 graph unit cell、TPMS unit cell、rectangular / cylindrical cell map 和晶格修剪并集的完整入门流程。
 
-12. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Completed Periodic Lattice on Faces](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/download-completed-periodic-lattice-on-faces/)** · 新增：2026-06-28 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `5.12.2`。  
+12. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Completed Periodic Lattice](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/download-completed-periodic-lattice/)** · 新增：2026-06-28 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 4.2.3`。  
+   文件：[`210_10_1 Completed--Periodic Lattice.ntop`](https://files.learn.ntop.com/Courses/210%20Intro%20to%20Lattices/nTop%20Files/210_10_1%20Completed--Periodic%20Lattice.ntop)。  
+   适合：想直接拆最基础 periodic lattice 成品 notebook 的人，适合对照学习 lattice to body 的完整搭建顺序、单元选择和早期晶格工作流的参数组织方式。
+
+13. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Completed Periodic Lattice on Faces](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/download-completed-periodic-lattice-on-faces/)** · 新增：2026-06-28 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `5.12.2`。  
    文件：[`210_14_1 Completed--Periodic Lattice on Faces.ntop`](https://files.learn.ntop.com/Courses/210%20Intro%20to%20Lattices/nTop%20Files/210_14_1%20Completed--Periodic%20Lattice%20on%20Faces.ntop)。  
    适合：想直接拆解 face-mapped periodic lattice 成品工程的人，适合对照学习 CAD face / mesh cell map 贴附后的 notebook 组织方式，以及表面晶格轻量化成品该如何收尾。
 
-13. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional Follow Along: FE Model and Boundary Conditions](https://learn.ntop.com/courses/340-topology-optimization/lessons/optional-follow-along-fe-model-and-boundary-conditions/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` 完整文件 + CAD 几何。  
+14. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional Follow Along: FE Model and Boundary Conditions](https://learn.ntop.com/courses/340-topology-optimization/lessons/optional-follow-along-fe-model-and-boundary-conditions/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` 完整文件 + CAD 几何。  
    文件：[`340_2_Complete — FE Model and Boundary Conditions.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_2_Complete%20%E2%80%94%20FE%20Model%20and%20Boundary%20Conditions.ntop)、[`340_2_Brake Pedal Geometry.x_t`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/CAD%20Files/340_2_Brake%20Pedal%20Geometry.x_t)。  
    适合：想把拓扑优化前处理补扎实的人，适合练习 brake pedal 这类真实零件的 FE 模型准备、边界条件搭建和后续 optimization 输入整理。
 
@@ -424,11 +432,11 @@
 | 方向 | 优先资料 |
 | --- | --- |
 | 刚入门 | Dashboard examples、nTop Learn、Loft between profiles、What is implicit modeling |
-| 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、random pattern、bitmap image texture、procedural textures、bitmap/deboss/knurl |
+| 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、Creating Ribs complete file、random pattern、bitmap image texture、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | Mix block / Field blending、How to use fields、Two-body field、Remap Field block、Remap Field scale/translate |
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Part labeling、Parametric Aircraft / Jet Blocks、Topology Tiles |
-| 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Periodic Lattice on Faces complete file、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
+| 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Periodic Lattice on Faces complete file、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Surface roughness、Hyper-realistic 3D textures、Procedural textures |
 | 拓扑优化 | How to run a topology optimization、Objectives and Constraints、FE Model and Boundary Conditions、Running Topology Optimization、Topology Optimization follow-along、Post Processing、TopOpt & Post Processing complete file、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
