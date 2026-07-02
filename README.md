@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-07-01
+最后更新：2026-07-02
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -246,42 +246,49 @@
    文件：[`210_22_1 Completed--Non-Periodic Lattices.ntop`](https://files.learn.ntop.com/Courses/210%20Intro%20to%20Lattices/nTop%20Files/210_22_1%20Completed--Non-Periodic%20Lattices.ntop)。  
    适合：想直接拆完整 non-periodic lattice 成品工程的人，适合对照学习 Voronoi / Delaunay 晶格的成品参数组织、后处理收尾和更自由形态的晶格表达。
 
-16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Applying Lattice Utilities](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/applying-lattice-utilities/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
+16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Periodic Lattice on Faces](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/follow-along-periodic-lattice-on-faces/)** · 新增：2026-07-02 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + follow-along PDF，课程页标注 last updated in `3.37.3`。  
+   文件：[`210_13_1 Starter--Periodic Lattice on Faces.ntop`](https://files.learn.ntop.com/Courses/210%20Intro%20to%20Lattices/nTop%20Files/210_13_1%20Starter--Periodic%20Lattice%20on%20Faces.ntop)、[`210_13_1 Follow Along - Periodic Lattice on Faces.pdf`](https://files.learn.ntop.com/Courses/210%20Intro%20to%20Lattices/PDFs/210_13_1%20Follow%20Along%20-%20Periodic%20Lattice%20on%20Faces.pdf)。  
+   适合：想从 starter file 练习把周期晶格稳定贴到 CAD face / mesh 表面的人，适合补齐 cell map 贴附、表面纹理化轻量结构和 face-based periodic lattice 的完整跟做流程。
+
+17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Cell Maps Using CAD Faces](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/cell-maps-using-cad-faces/)** · 新增：2026-07-02 · nTop Learn；课程 lesson，含动态图讲解 `Cell Map From CAD Face` 与 `Cell Map between CAD Faces`。  
+   适合：想先把 CAD face 上的 U/V/W 参数化、局部方向和贴附逻辑真正看明白的人，适合给后面的 face texture、surface lattice 和 conformal 晶格建模打基础。
+
+18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Applying Lattice Utilities](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/applying-lattice-utilities/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
    适合：想把 lattice utilities 真正用到工程里的人，适合系统梳理晶格裁剪、延伸、合并、顶点/梁段处理这类后处理思路，补齐从“会生成晶格”到“会整理晶格”的一段空白。
 
-17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Filtering Lattice Beams](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/filtering-lattice-beams/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
+19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Filtering Lattice Beams](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/filtering-lattice-beams/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
    适合：想控制 beam 数量、连通性和可制造性的人，适合专门理解 beam filtering、删除细碎梁段和整理复杂晶格网络时的判断逻辑。
 
-18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional Follow Along: FE Model and Boundary Conditions](https://learn.ntop.com/courses/340-topology-optimization/lessons/optional-follow-along-fe-model-and-boundary-conditions/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` 完整文件 + CAD 几何。  
+20. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional Follow Along: FE Model and Boundary Conditions](https://learn.ntop.com/courses/340-topology-optimization/lessons/optional-follow-along-fe-model-and-boundary-conditions/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` 完整文件 + CAD 几何。  
    文件：[`340_2_Complete — FE Model and Boundary Conditions.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_2_Complete%20%E2%80%94%20FE%20Model%20and%20Boundary%20Conditions.ntop)、[`340_2_Brake Pedal Geometry.x_t`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/CAD%20Files/340_2_Brake%20Pedal%20Geometry.x_t)。  
    适合：想把拓扑优化前处理补扎实的人，适合练习 brake pedal 这类真实零件的 FE 模型准备、边界条件搭建和后续 optimization 输入整理。
 
-19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Objectives and Constraints](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-objectives-and-constraints/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。  
+21. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Objectives and Constraints](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-objectives-and-constraints/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。  
    文件：[`340_8_1 Starter — Objectives and Constraints.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_8_1%20Starter%20--%20Objectives%20and%20Constraints.ntop)、[`340_8_1 Follow Along - Objectives and Constraints.pdf`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/PDFs/340_8_1%20Follow%20Along%20-%20Objectives%20and%20Constraints.pdf)。  
    适合：想把拓扑优化里的 objective、volume fraction 和 constraint 设置吃透的人，适合边看讲义边跟做参数定义与优化目标拆解。
 
-20. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-topology-optimization/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。  
+22. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-topology-optimization/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。  
    文件：[`340_10_1 Starter — Topology Optimization.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_10_1%20Starter%20--%20Topology%20Optimization.ntop)、[`340_10_1 Follow Along - Topology Optimization.pdf`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/PDFs/340_10_1%20Follow%20Along%20-%20Topology%20Optimization.pdf)。  
    适合：已经会建 FE 模型、现在想亲手跑完一次 topopt 求解的人，适合顺着 starter file 补齐求解设置、运行节奏和结果判断。
 
-21. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-post-processing/)** · 新增：2026-06-13 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。  
+23. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-post-processing/)** · 新增：2026-06-13 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。  
    文件：[`340_13_1 Starter — Post Processing.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_13_1%20Starter%20--%20Post%20Processing.ntop)、[`340_13_1 Follow Along - Post Processing.pdf`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/PDFs/340_13_1%20Follow%20Along%20-%20Post%20Processing.pdf)。  
    适合：想把拓扑优化结果真正收尾成可输出几何的人，适合练习 `Implicit Body from Topology Optimization`、`Smoothen Body`、接口重建和最终裁剪这套后处理链路。  
 
-22. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/download-post-processing/)** · 新增：2026-06-13 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.12.2`。  
+24. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/download-post-processing/)** · 新增：2026-06-13 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.12.2`。  
    文件：[`340_14_1 Complete — TopOpt & Post Processing.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_14_1%20Complete%20--%20TopOpt%20%26%20Post%20Processing.ntop)。  
    适合：想直接对照完整成品复盘拓扑优化后处理 notebook 组织方式的人，尤其适合边看成品边回查平滑、布尔并集和接口恢复步骤。  
 
-23. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Running Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/running-topology-optimization/)** · 新增：2026-06-14 · nTop Learn；课程主线 lesson。  
+25. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Running Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/running-topology-optimization/)** · 新增：2026-06-14 · nTop Learn；课程主线 lesson。  
    适合：已经搭好 FE 模型和约束、想补齐求解阶段判断逻辑的人，适合系统理解拓扑优化运行节奏、迭代观察和结果收敛前后的检查点。  
 
-24. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Answer to TopOpt Test Problem](https://learn.ntop.com/courses/340-topology-optimization/lessons/answer-to-topopt-test-problem/)** · 新增：2026-06-14 · nTop Learn；课程答案页。  
+26. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Answer to TopOpt Test Problem](https://learn.ntop.com/courses/340-topology-optimization/lessons/answer-to-topopt-test-problem/)** · 新增：2026-06-14 · nTop Learn；课程答案页。  
    适合：做完前面 follow-along 后想快速对答案的人，适合校验目标函数理解、结果预期和整套 topopt 教学链路有没有吃透。  
 
-25. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Remap Field to scale or translate an object](https://support.ntop.com/hc/en-us/articles/4407263917331-How-to-use-Remap-Field-to-scale-or-translate-an-object)** · 新增：2026-05-24 · Support，更新 2026-04-06；`Example file`：[Remap Field to Scale or Translate Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Fields/Remap%20Field%20to%20Scale%20or%20Translate%20Example.ntop)。  
+27. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Remap Field to scale or translate an object](https://support.ntop.com/hc/en-us/articles/4407263917331-How-to-use-Remap-Field-to-scale-or-translate-an-object)** · 新增：2026-05-24 · Support，更新 2026-04-06；`Example file`：[Remap Field to Scale or Translate Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Fields/Remap%20Field%20to%20Scale%20or%20Translate%20Example.ntop)。  
    适合：把缩放和位移做成 field-driven 变化，练习 Remap Field、渐变变形、阵列过渡和更灵活的隐式建模调参。  
 
-26. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to add fillets to lattices](https://support.ntop.com/hc/en-us/articles/360053643474-How-to-add-fillets-to-lattices)** · 新增：2026-05-24 · Support，更新 2026-04-02；3 个 `Example file`。  
+28. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to add fillets to lattices](https://support.ntop.com/hc/en-us/articles/360053643474-How-to-add-fillets-to-lattices)** · 新增：2026-05-24 · Support，更新 2026-04-02；3 个 `Example file`。  
    文件：[`fillet_ribs.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/fillet_ribs.ntop)、[`custom_unit_cell_fillet.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/custom_unit_cell_fillet.ntop)、[`fillet_spheres.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Lattices/fillet_spheres.ntop)。  
    适合：晶格圆角、rib/joint 过渡、custom unit cell 细节修饰，以及提升 lattice 可制造性和外观完成度。  
 
@@ -450,7 +457,7 @@
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | Mix block / Field blending、How to use fields、Two-body field、Remap Field block、Remap Field scale/translate |
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Part labeling、Parametric Aircraft / Jet Blocks、Topology Tiles |
-| 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Periodic Lattice on Faces complete file、Non-Periodic Lattices follow-along、Completed Non-Periodic Lattices、Applying Lattice Utilities、Filtering Lattice Beams、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
+| 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Cell Maps Using CAD Faces、Periodic Lattice on Faces follow-along、Periodic Lattice on Faces complete file、Non-Periodic Lattices follow-along、Completed Non-Periodic Lattices、Applying Lattice Utilities、Filtering Lattice Beams、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Surface roughness、Hyper-realistic 3D textures、Procedural textures |
 | 拓扑优化 | How to run a topology optimization、Objectives and Constraints、FE Model and Boundary Conditions、Running Topology Optimization、Topology Optimization follow-along、Post Processing、TopOpt & Post Processing complete file、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
