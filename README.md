@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-07-04
+最后更新：2026-07-05
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -90,11 +90,14 @@
     文件：[`311_8_Starter -- Adding Roughness.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_8_Starter%20--%20Adding%20Roughness.ntop)、[`311_8_Follow Along - Adding Roughness.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_8_Follow%20Along%20-%20Adding%20Roughness.pdf)。  
     适合：想把表面粗糙度做成可控视觉语言的人，适合练习 noise field、roughness 幅值控制和偏工艺品外观的细节塑形。
 
-14. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Procedural Texturing](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-procedural-texturing/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。  
+14. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Periodic Fields](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/periodic-fields/)** · 新增：2026-07-05 · nTop Learn；课程 lesson，位于 `Field Based Texturing` 章节，聚焦周期场如何驱动重复纹理与节奏变化。  
+    适合：想把 ribs、roughness 或程序纹理做出更强重复节奏和参数控制的人，适合先补 periodic field 概念，再回头看 procedural texturing、surface pattern 和外观语言搭建。
+
+15. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Procedural Texturing](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/download-procedural-texturing/)** · 新增：2026-06-16 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.13.2`。  
     文件：[`311_12_Complete -- Procedural Texturing.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_12_Complete%20--%20Procedural%20Texturing.ntop)。  
     适合：想直接拆完整程序纹理工程的人，适合对照学习噪声场、纹理映射和消费品表面纹理的完整搭建方式。
 
-15. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Creating Ribs](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-creating-ribs/)** · 新增：2026-06-16 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。  
+16. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Creating Ribs](https://learn.ntop.com/courses/311-ribbing-and-texturing/lessons/follow-along-creating-ribs/)** · 新增：2026-06-16 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.13.2`。  
     文件：[`311_3_Starter -- Creating Ribs.ntop`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/nTop%20Files/311_3_Starter%20--%20Creating%20Ribs.ntop)、[`311_3_Follow Along - Creating Ribs.pdf`](https://files.learn.ntop.com/Courses/311%20Ribbing%20and%20Texturing/PDFs/311_3_Follow%20Along%20-%20Creating%20Ribs.pdf)。  
     适合：想把加强筋做成贴合曲面的结构语言的人，适合练习 periodic lattice、cell map from CAD face / quad mesh，以及兼顾功能与外观的 conformal ribbing。
 
@@ -253,16 +256,19 @@
 17. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Cell Maps Using CAD Faces](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/cell-maps-using-cad-faces/)** · 新增：2026-07-02 · nTop Learn；课程 lesson，含动态图讲解 `Cell Map From CAD Face` 与 `Cell Map between CAD Faces`。  
    适合：想先把 CAD face 上的 U/V/W 参数化、局部方向和贴附逻辑真正看明白的人，适合给后面的 face texture、surface lattice 和 conformal 晶格建模打基础。
 
-18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Simple Volume Lattices](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/simple-volume-lattices/)** · 新增：2026-07-04 · nTop Learn；课程 lesson，位于 periodic lattice 与 test problem 之间，当前缓存页未见直接 `.ntop` / 下载链接。  
+18. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Cell Maps Using Meshes](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/cell-maps-using-meshes/)** · 新增：2026-07-05 · nTop Learn；课程 lesson，聚焦 `Cell Map From Quad Mesh` 与多面连续贴图思路。  
+   适合：想把周期晶格或纹理连续铺到多片外表面的人，适合补齐 quad mesh cell map、跨多面统一方向和更复杂外壳贴附晶格的建模思路。
+
+19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Simple Volume Lattices](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/simple-volume-lattices/)** · 新增：2026-07-04 · nTop Learn；课程 lesson，位于 periodic lattice 与 test problem 之间，当前缓存页未见直接 `.ntop` / 下载链接。  
    适合：想先把体积晶格这种最直接的 lattice 填充思路补齐的人，适合在进入测试题前梳理 volume lattice 的基础表达、与 cell map 晶格的差别，以及“先快速铺满体积再细化策略”的入门判断。
 
-19. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional: Periodic Lattice Test Problem](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/optional-periodic-lattice-test-problem/)** · 新增：2026-07-04 · nTop Learn；课程 lesson，位于 `Optional Test Problem` 小节，当前缓存页未见直接 `.ntop` / 下载链接。  
+20. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional: Periodic Lattice Test Problem](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/optional-periodic-lattice-test-problem/)** · 新增：2026-07-04 · nTop Learn；课程 lesson，位于 `Optional Test Problem` 小节，当前缓存页未见直接 `.ntop` / 下载链接。  
    适合：已经跑完 periodic lattice 基础流程、想用一题小练习检验自己是否真正掌握 unit cell 选择、cell map 设置和 lattice 后处理顺序的人，适合把“跟做”过渡到“自己搭”。
 
-20. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Applying Lattice Utilities](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/applying-lattice-utilities/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
+21. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Applying Lattice Utilities](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/applying-lattice-utilities/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
    适合：想把 lattice utilities 真正用到工程里的人，适合系统梳理晶格裁剪、延伸、合并、顶点/梁段处理这类后处理思路，补齐从“会生成晶格”到“会整理晶格”的一段空白。
 
-21. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Filtering Lattice Beams](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/filtering-lattice-beams/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
+22. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Filtering Lattice Beams](https://learn.ntop.com/courses/210-intro-to-lattices/lessons/filtering-lattice-beams/)** · 新增：2026-07-01 · nTop Learn；课程 lesson，位于 `Intro to Lattices` 的 Modifying Lattices 章节。  
    适合：想控制 beam 数量、连通性和可制造性的人，适合专门理解 beam filtering、删除细碎梁段和整理复杂晶格网络时的判断逻辑。
 
 22. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional Follow Along: FE Model and Boundary Conditions](https://learn.ntop.com/courses/340-topology-optimization/lessons/optional-follow-along-fe-model-and-boundary-conditions/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` 完整文件 + CAD 几何。  
@@ -461,9 +467,9 @@
 | 刚入门 | Dashboard examples、nTop Learn、Loft between profiles、What is implicit modeling |
 | 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、Creating Ribs complete file、random pattern、bitmap image texture、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
-| Field-driven design | Mix block / Field blending、How to use fields、Two-body field、Remap Field block、Remap Field scale/translate |
+| Field-driven design | Mix block / Field blending、How to use fields、Two-body field、Periodic Fields、Remap Field block、Remap Field scale/translate |
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Part labeling、Parametric Aircraft / Jet Blocks、Topology Tiles |
-| 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Cell Maps Using CAD Faces、Simple Volume Lattices、Periodic Lattice Test Problem、Periodic Lattice on Faces follow-along、Periodic Lattice on Faces complete file、Non-Periodic Lattices follow-along、Completed Non-Periodic Lattices、Applying Lattice Utilities、Filtering Lattice Beams、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
+| 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Cell Maps Using CAD Faces、Cell Maps Using Meshes、Simple Volume Lattices、Periodic Lattice Test Problem、Periodic Lattice on Faces follow-along、Periodic Lattice on Faces complete file、Non-Periodic Lattices follow-along、Completed Non-Periodic Lattices、Applying Lattice Utilities、Filtering Lattice Beams、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Random pattern、Voronoi surface texture、Perforations、Surface roughness、Hyper-realistic 3D textures、Procedural textures |
 | 拓扑优化 | How to run a topology optimization、Objectives and Constraints、FE Model and Boundary Conditions、Running Topology Optimization、Topology Optimization follow-along、Post Processing、TopOpt & Post Processing complete file、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
