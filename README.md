@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-07-13
+最后更新：2026-07-14
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -309,36 +309,42 @@
 31. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to define a passive region for optimization](https://support.ntop.com/hc/en-us/articles/24854202367891-How-to-define-a-passive-region-for-optimization)** · 新增：2026-07-13 · Support，更新 2026-05-18；FAQ / 支持文章，当前未见直接 `Example File` / 下载链接。  
    适合：想在拓扑优化里明确哪些区域必须保留、哪些区域允许演化的人，适合处理接口、安装面、载荷路径和制造保留区这类“不能动”的设计边界。
 
-32. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-topology-optimization/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。
+32. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Can I use more than one objective in a Topology Optimization?](https://support.ntop.com/hc/en-us/articles/360048490094-Can-I-use-more-than-one-objective-in-a-Topology-Optimization)** · 新增：2026-07-14 · Support，更新 2026-05-18；FAQ / 支持文章，当前未见直接 `Example File` / 下载链接。  
+   适合：已经开始做多载荷或多性能权衡的人，适合补齐 multiple objectives、权重分配和“一个优化里怎样同时表达多个设计意图”的设置思路。
+
+33. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-topology-optimization/)** · 新增：2026-06-09 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。
    文件：[`340_10_1 Starter — Topology Optimization.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_10_1%20Starter%20--%20Topology%20Optimization.ntop)、[`340_10_1 Follow Along - Topology Optimization.pdf`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/PDFs/340_10_1%20Follow%20Along%20-%20Topology%20Optimization.pdf)。  
    适合：已经会建 FE 模型、现在想亲手跑完一次 topopt 求解的人，适合顺着 starter file 补齐求解设置、运行节奏和结果判断。
 
-33. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Running Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/running-topology-optimization/)** · 新增：2026-06-14 · nTop Learn；课程主线 lesson。
+34. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Running Topology Optimization](https://learn.ntop.com/courses/340-topology-optimization/lessons/running-topology-optimization/)** · 新增：2026-06-14 · nTop Learn；课程主线 lesson。
    适合：已经搭好 FE 模型和约束、想补齐求解阶段判断逻辑的人，适合系统理解拓扑优化运行节奏、迭代观察和结果收敛前后的检查点。
 
-34. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/post-processing/)** · 新增：2026-07-12 · nTop Learn；课程主线 lesson，位于求解之后，专门讲 raw topopt 结果如何进入重建、平滑和可制造几何整理阶段。  
+35. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/post-processing/)** · 新增：2026-07-12 · nTop Learn；课程主线 lesson，位于求解之后，专门讲 raw topopt 结果如何进入重建、平滑和可制造几何整理阶段。  
    适合：已经跑出优化结果、但还没把它真正变成 CAD/制造几何的人，适合先补清后处理主线，再去跟做 starter file 和 complete file。
 
-35. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-post-processing/)** · 新增：2026-06-13 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。
+36. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/follow-along-post-processing/)** · 新增：2026-06-13 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + 讲义 PDF，课程页标注 last updated in `nTop 5.12.2`。
    文件：[`340_13_1 Starter — Post Processing.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_13_1%20Starter%20--%20Post%20Processing.ntop)、[`340_13_1 Follow Along - Post Processing.pdf`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/PDFs/340_13_1%20Follow%20Along%20-%20Post%20Processing.pdf)。  
    适合：想把拓扑优化结果真正收尾成可输出几何的人，适合练习 `Implicit Body from Topology Optimization`、`Smoothen Body`、接口重建和最终裁剪这套后处理链路。
 
-36. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/download-post-processing/)** · 新增：2026-06-13 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.12.2`。
+37. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Download: Post Processing](https://learn.ntop.com/courses/340-topology-optimization/lessons/download-post-processing/)** · 新增：2026-06-13 · nTop Learn；下载课件，提供 `.ntop` 完整文件，课程页标注 last updated in `nTop 5.12.2`。
    文件：[`340_14_1 Complete — TopOpt & Post Processing.ntop`](https://files.learn.ntop.com/Courses/340%20Topology%20Optimization/nTop%20Files/340_14_1%20Complete%20--%20TopOpt%20%26%20Post%20Processing.ntop)。  
    适合：想直接对照完整成品复盘拓扑优化后处理 notebook 组织方式的人，尤其适合边看成品边回查平滑、布尔并集和接口恢复步骤。
 
-37. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional: TopOpt Problem Statement](https://learn.ntop.com/courses/340-topology-optimization/lessons/optional-topopt-problem-statement/)** · 新增：2026-07-10 · nTop Learn；可选测试题页面，提供 `.ntop` starter file，适合把前面目标、约束与求解流程串成一次独立练习。  
+38. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Optional: TopOpt Problem Statement](https://learn.ntop.com/courses/340-topology-optimization/lessons/optional-topopt-problem-statement/)** · 新增：2026-07-10 · nTop Learn；可选测试题页面，提供 `.ntop` starter file，适合把前面目标、约束与求解流程串成一次独立练习。  
    适合：想脱离讲解自己完整跑一遍 topopt 小题的人，适合用 starter file 检查 setup 是否真的内化，而不只是照着 follow-along 点按钮。
 
-38. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Answer to TopOpt Test Problem](https://learn.ntop.com/courses/340-topology-optimization/lessons/answer-to-topopt-test-problem/)** · 新增：2026-06-14 · nTop Learn；课程答案页。
+39. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Answer to TopOpt Test Problem](https://learn.ntop.com/courses/340-topology-optimization/lessons/answer-to-topopt-test-problem/)** · 新增：2026-06-14 · nTop Learn；课程答案页。
    适合：做完前面 follow-along 后想快速对答案的人，适合校验目标函数理解、结果预期和整套 topopt 教学链路有没有吃透。
 
-39. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Topology Optimization Tips and Best Practices](https://learn.ntop.com/courses/340-topology-optimization/lessons/topology-optimization-tips-and-best-practices/)** · 新增：2026-07-09 · nTop Learn；课程主线 lesson，位于 optional problem 之后，聚焦拓扑优化流程里的常见踩坑、结果检查与建模习惯。  
+40. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Topology Optimization Tips and Best Practices](https://learn.ntop.com/courses/340-topology-optimization/lessons/topology-optimization-tips-and-best-practices/)** · 新增：2026-07-09 · nTop Learn；课程主线 lesson，位于 optional problem 之后，聚焦拓扑优化流程里的常见踩坑、结果检查与建模习惯。  
    适合：已经跑过 topopt、想把失败重跑和结果质量判断做得更稳的人，适合集中补齐 setup 取舍、后处理前检查点和更工程化的 best practices。
 
-40. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Advanced Topology Optimization](https://learn.ntop.com/lessons/advanced-topology-optimization/)** · 新增：2026-07-11 · nTop Learn；recorded training，聚焦 multiple load cases + multiple constraints 的“从零搭起”拓扑优化流程，并提供 zip 下载包。
+41. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Advanced Topology Optimization](https://learn.ntop.com/lessons/advanced-topology-optimization/)** · 新增：2026-07-11 · nTop Learn；recorded training，聚焦 multiple load cases + multiple constraints 的“从零搭起”拓扑优化流程，并提供 zip 下载包。
    文件：[`Advanced_Topology_Optimization.zip`](https://files.learn.ntop.com/Courses/Recorded%20Trainings/Advanced%20Topology%20Optimization%20-%20Multiple%20Loads%2C%20Multiple%20Conditions/Advanced_Topology_Optimization.zip)。  
    适合：已经跑过单工况 topopt、现在想进到多载荷多约束真实工程设定的人，适合直接拆解进阶 notebook 和训练材料里的 objective / constraint 组合方式。
+
+42. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to import topology optimization results from Altair OptiStruct into nTop](https://support.ntop.com/hc/en-us/articles/1500000156701-How-to-import-topology-optimization-results-from-Altair-Optistruct-into-nTop)** · 新增：2026-07-14 · Support，更新 2026-05-18；工作流 / 支持文章，当前未见直接 `Example File` / 下载链接。  
+   适合：已经在 OptiStruct 跑过拓扑优化、想把结果带回 nTop 做重建和后处理的人，适合补齐外部求解结果导入、清理与 implicit workflow 衔接这条链路。
 
 27. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Remap Field to scale or translate an object](https://support.ntop.com/hc/en-us/articles/4407263917331-How-to-use-Remap-Field-to-scale-or-translate-an-object)** · 新增：2026-05-24 · Support，更新 2026-04-06；`Example file`：[Remap Field to Scale or Translate Example.ntop](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Fields/Remap%20Field%20to%20Scale%20or%20Translate%20Example.ntop)。  
    适合：把缩放和位移做成 field-driven 变化，练习 Remap Field、渐变变形、阵列过渡和更灵活的隐式建模调参。  
@@ -514,7 +520,7 @@
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Part labeling、Parametric Aircraft / Jet Blocks、Topology Tiles |
 | 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Cell Maps Using CAD Faces、Cell Maps Using Meshes、Simple Volume Lattices、Periodic Lattice Test Problem、Periodic Lattice on Faces follow-along、Periodic Lattice on Faces complete file、Non-Periodic Lattices follow-along、Completed Non-Periodic Lattices、Applying Lattice Utilities、Filtering Lattice Beams、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Noise Fields、Working with Bitmaps、Random pattern、Voronoi surface texture、Perforations、Surface roughness、Hyper-realistic 3D textures、Procedural textures |
-| 拓扑优化 | How to run a topology optimization、Before We Begin、Topology Optimization Properties and Terminology、Review FE / Boundary Conditions、FE Model and Boundary Conditions、Design Responses、Optimization Objectives、Defining Constraints、Optimization settings、Passive region、Running Topology Optimization、Post Processing、Topology Optimization follow-along、TopOpt Test Problem starter、TopOpt & Post Processing complete file、Topology Optimization Tips and Best Practices、Advanced Topology Optimization、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
+| 拓扑优化 | How to run a topology optimization、Before We Begin、Topology Optimization Properties and Terminology、Review FE / Boundary Conditions、FE Model and Boundary Conditions、Design Responses、Optimization Objectives、Defining Constraints、Optimization settings、Passive region、Multiple objectives、Running Topology Optimization、Post Processing、Topology Optimization follow-along、TopOpt Test Problem starter、TopOpt & Post Processing complete file、Topology Optimization Tips and Best Practices、Advanced Topology Optimization、OptiStruct import、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Double Pipe HEX、Core and Baffles、Thermal management、nTop Fluids |
 | 仿真 / 网格 | Surface mesh、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
