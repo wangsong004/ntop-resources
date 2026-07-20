@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-07-18
+最后更新：2026-07-20
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -440,22 +440,30 @@
     文件：[`Simulation Model with Multiple Materials Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Simulation/Simulation%20Model%20with%20Multiple%20Materials%20Example.ntop)、[`Simulation Model with Multiple Materials Example.x_t`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Simulation/Simulation%20Model%20with%20Multiple%20Materials%20Example.x_t)。  
     适合：想练多材料分区、接触界面和更真实装配仿真前处理的人，适合把单材料 simulation model 继续推进到多实体 / 多材料场景。  
 
-38. **[How to use nTop Automate in ModeFrontier DOE workflows](https://support.ntop.com/hc/en-us/articles/360052078394-How-to-use-nTop-Automate-in-ModeFrontier-DOE-workflows)** · Support，2026-03-16；视频 + `Mode Frontier Example.zip`。  
+38. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Boundary Conditions](https://support.ntop.com/hc/en-us/articles/360055857533-How-to-use-Boundary-Conditions)** · 新增：2026-07-20 · Support，更新 2026-05-18；`Example File`。  
+    文件：[`Boundary Conditions Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Simulation/Boundary%20Conditions%20Example.ntop)。  
+    适合：想把 force、displacement restraint、velocity、pressure 这些边界条件真正用顺的人，适合补齐静力分析和流体分析里“模型之外的工况如何喂给求解器”这一步。  
+
+39. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to run a thermal analysis](https://support.ntop.com/hc/en-us/articles/360052704313-How-to-run-a-thermal-analysis)** · 新增：2026-07-20 · Support，更新 2026-05-18；`Example File`。  
+    文件：[`Thermal Analysis Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Simulation/Thermal%20Analysis%20Example.ntop)。  
+    适合：想把导热、热流、对流、温度约束和后续 thermal stress 串起来的人，适合从单纯 static analysis 进阶到温度场驱动的仿真工作流。  
+
+40. **[How to use nTop Automate in ModeFrontier DOE workflows](https://support.ntop.com/hc/en-us/articles/360052078394-How-to-use-nTop-Automate-in-ModeFrontier-DOE-workflows)** · Support，2026-03-16；视频 + `Mode Frontier Example.zip`。  
     适合：ModeFrontier DOE/MDO，JSON 输入输出，nTop Automate 接外部设计探索平台。  
 
-39. **[nTop Learn 课程总览：nTop Automate（Course 330）](https://learn.ntop.com/courses/330-ntop-automate/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
+41. **[nTop Learn 课程总览：nTop Automate（Course 330）](https://learn.ntop.com/courses/330-ntop-automate/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
     适合：系统学习 CLI、`ntopcl`、批处理、参数探索；再按章节下载对应 `.ntop` / zip。  
 
-40. **[nTop Learn 课程总览：Intro to Field-Driven Design（Course 220）](https://learn.ntop.com/courses/220-intro-to-field-driven-design/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
+42. **[nTop Learn 课程总览：Intro to Field-Driven Design（Course 220）](https://learn.ntop.com/courses/220-intro-to-field-driven-design/)** · nTop Learn 课程页，含多个 follow-along / completed files。  
     适合：field 概念、常用 block、组合套路和完整 bracket 小项目复盘。  
 
-41. **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · Support，更新 2026-04-02；提供 `.ntop` `Example File`（`loft_profiles.ntop`）。  
+43. **[How to loft between profiles](https://support.ntop.com/hc/en-us/articles/1500000929422-How-to-loft-between-profiles)** · Support，更新 2026-04-02；提供 `.ntop` `Example File`（`loft_profiles.ntop`）。  
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
     适合：在多个 2D profiles 间生成平滑过渡体，练习 loft、截面轮廓、implicit body 与参数化截面建模。  
 
-42. **[How to create a surface mesh](https://support.ntop.com/hc/en-us/articles/360038828913-How-to-create-a-surface-mesh)** · Support，更新 2026-04-02；提供 `Example File`。  
+44. **[How to create a surface mesh](https://support.ntop.com/hc/en-us/articles/360038828913-How-to-create-a-surface-mesh)** · Support，更新 2026-04-02；提供 `Example File`。  
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
-    适合：把 implicit body / CAD body 转成高质量 surface mesh，练习网格尺寸、tolerance、feature preservation 与制造/仿真前处理。
+    适合：把 implicit body / CAD body 转成高质量 surface mesh，练习网格尺寸、tolerance、feature preservation 与制造/仿真前处理。  
 
 ## 视频资料
 
@@ -545,5 +553,5 @@
 | 拓扑优化 | How to run a topology optimization、Before We Begin、Topology Optimization Properties and Terminology、Review FE / Boundary Conditions、FE Model and Boundary Conditions、Design Responses、Optimization Objectives、Defining Constraints、Optimization settings、Passive region、Multiple objectives、Geometric constraints、Overhang constraint、Running Topology Optimization、Post Processing、Topology Optimization follow-along、TopOpt Test Problem starter、TopOpt & Post Processing complete file、Topology Optimization Tips and Best Practices、Advanced Topology Optimization、OptiStruct import、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Double Pipe HEX、Core and Baffles、Thermal management、nTop Fluids |
-| 仿真 / 网格 | Surface mesh、Simulation Model、Static Analysis、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
+| 仿真 / 网格 | Surface mesh、Simulation Model、Boundary Conditions、Static Analysis、Thermal Analysis、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
 | 航空参数化 | Parametric Aircraft Design、Accelerated Aircraft Modeling Webinar |
