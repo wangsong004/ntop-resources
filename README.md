@@ -465,6 +465,14 @@
     > ![已读](https://img.shields.io/badge/%E5%B7%B2%E8%AF%BB-red) 已读：2026-05-16  
     适合：把 implicit body / CAD body 转成高质量 surface mesh，练习网格尺寸、tolerance、feature preservation 与制造/仿真前处理。  
 
+45. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Parametric Impeller](https://learn.ntop.com/courses/parametric-turbomachinery-design/lessons/parametric-impeller/)** · 新增：2026-07-20 · nTop Learn；课程 lesson，提供 `.ntop` 项目文件，课程页标注 last updated in `nTop 5.37.3`。  
+    文件：[`Parametric Impeller.ntop`](https://storage.googleapis.com/files-learn/Courses/Turbomachinery%20Design/Parametric%20Impeller.ntop)。  
+    适合：想把叶轮几何做成稳健参数化隐式模型的人，适合练习 SDF 驱动的叶片包络、旋转机械流道建模，以及后续 meshing / analysis 前的稳定几何组织。  
+
+46. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Parametric Blisk Analysis](https://learn.ntop.com/courses/parametric-turbomachinery-design/lessons/parametric-blisk-analysis/)** · 新增：2026-07-20 · nTop Learn；课程 lesson，提供 `.ntop` 分析文件，课程页标注 last updated in `nTop 5.42.2`。  
+    文件：[`Blisk Analysis Example.ntop`](https://storage.googleapis.com/files-learn/Courses/Turbomachinery%20Design/Blisk%20Analysis%20Example.ntop)。  
+    适合：想把旋转机械几何继续接到仿真验证的人，适合补齐 blisk 的载荷/约束设置、仿真准备与 turbomachinery 设计到 analysis 的衔接。  
+
 ## 视频资料
 
 1. **[What is implicit modeling in nTop?](https://www.ntop.com/videos/video/ntop-live-what-is-implicit-modeling-in-ntopology/)** · 视频，2021-08-30；提供 `Download the files`。  
@@ -554,4 +562,4 @@
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Double Pipe HEX、Core and Baffles、Thermal management、nTop Fluids |
 | 仿真 / 网格 | Surface mesh、Simulation Model、Boundary Conditions、Static Analysis、Thermal Analysis、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
-| 航空参数化 | Parametric Aircraft Design、Accelerated Aircraft Modeling Webinar |
+| 航空参数化 | Parametric Aircraft Design、Parametric Impeller、Parametric Blisk Analysis、Accelerated Aircraft Modeling Webinar |
