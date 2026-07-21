@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-07-20
+最后更新：2026-07-21
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -473,6 +473,14 @@
     文件：[`Blisk Analysis Example.ntop`](https://storage.googleapis.com/files-learn/Courses/Turbomachinery%20Design/Blisk%20Analysis%20Example.ntop)。  
     适合：想把旋转机械几何继续接到仿真验证的人，适合补齐 blisk 的载荷/约束设置、仿真准备与 turbomachinery 设计到 analysis 的衔接。  
 
+47. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Max and Min Feature Size Constraints](https://support.ntop.com/hc/en-us/articles/47635789067283-How-to-use-Max-and-Min-Feature-Size-Constraints)** · 新增：2026-07-21 · Support，更新 2026-05-18；`Example File`，提供 2 个拓扑优化示例。  
+    文件：[`SimpleBracket.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Optimization/SimpleBracket.ntop)、[`SwingArmExtrusion.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Optimization/SwingArmExtrusion.ntop)。  
+    适合：想把最小/最大特征尺寸真正落到拓扑优化里的人，适合练习 manufacturability 约束、mesh 尺寸与 feature size 的配合，以及避免细杆断裂或局部过厚的结果控制。  
+
+48. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use the demold constraint](https://support.ntop.com/hc/en-us/articles/25590605028371-How-to-use-the-demold-constraint)** · 新增：2026-07-21 · Support，更新 2026-05-18；`Example File`。  
+    文件：[`demold_constraint_example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Optimization/demold_constraint_example.ntop)。  
+    适合：想把拔模/脱模方向直接带进拓扑优化的人，适合练习 demold constraint、单向或分型面脱模逻辑，以及更贴近铸造/注塑工艺的制造约束设定。  
+
 ## 视频资料
 
 1. **[What is implicit modeling in nTop?](https://www.ntop.com/videos/video/ntop-live-what-is-implicit-modeling-in-ntopology/)** · 视频，2021-08-30；提供 `Download the files`。  
@@ -558,7 +566,7 @@
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Part labeling、Parametric Aircraft / Jet Blocks、Topology Tiles |
 | 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Cell Maps Using CAD Faces、Cell Maps Using Meshes、Simple Volume Lattices、Periodic Lattice Test Problem、Periodic Lattice on Faces follow-along、Periodic Lattice on Faces complete file、Non-Periodic Lattices follow-along、Completed Non-Periodic Lattices、Applying Lattice Utilities、Filtering Lattice Beams、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Noise Fields、Working with Bitmaps、Random pattern、Voronoi surface texture、Perforations、Surface roughness、Hyper-realistic 3D textures、Procedural textures |
-| 拓扑优化 | How to run a topology optimization、Before We Begin、Topology Optimization Properties and Terminology、Review FE / Boundary Conditions、FE Model and Boundary Conditions、Design Responses、Optimization Objectives、Defining Constraints、Optimization settings、Passive region、Multiple objectives、Geometric constraints、Overhang constraint、Running Topology Optimization、Post Processing、Topology Optimization follow-along、TopOpt Test Problem starter、TopOpt & Post Processing complete file、Topology Optimization Tips and Best Practices、Advanced Topology Optimization、OptiStruct import、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
+| 拓扑优化 | How to run a topology optimization、Before We Begin、Topology Optimization Properties and Terminology、Review FE / Boundary Conditions、FE Model and Boundary Conditions、Design Responses、Optimization Objectives、Defining Constraints、Optimization settings、Passive region、Feature size constraints、Multiple objectives、Geometric constraints、Overhang constraint、Demold constraint、Running Topology Optimization、Post Processing、Topology Optimization follow-along、TopOpt Test Problem starter、TopOpt & Post Processing complete file、Topology Optimization Tips and Best Practices、Advanced Topology Optimization、OptiStruct import、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Double Pipe HEX、Core and Baffles、Thermal management、nTop Fluids |
 | 仿真 / 网格 | Surface mesh、Simulation Model、Boundary Conditions、Static Analysis、Thermal Analysis、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
