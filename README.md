@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-07-21
+最后更新：2026-07-22
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -481,6 +481,14 @@
     文件：[`demold_constraint_example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Optimization/demold_constraint_example.ntop)。  
     适合：想把拔模/脱模方向直接带进拓扑优化的人，适合练习 demold constraint、单向或分型面脱模逻辑，以及更贴近铸造/注塑工艺的制造约束设定。  
 
+39. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to select boundaries of an FE Mesh - FE Boundary by Flood Fill](https://support.ntop.com/hc/en-us/articles/360044264914-How-to-select-boundaries-of-an-FE-Mesh-FE-Boundary-by-Flood-Fill)** · 新增：2026-07-22 · Support，更新 2026-05-18；`Example File`。  
+    文件：[`FE Boundary by Flood Fill Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Simulation/FE%20Boundary%20by%20Flood%20Fill%20Example.ntop)。  
+    适合：想把复杂 FE mesh 上的边界选区做稳的人，适合练习 flood fill 式面组识别、局部载荷/约束施加，以及把网格层面的选区真正接到后续仿真设置里。  
+
+40. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[How to use Simulation Results to Create a Point Map or Field](https://support.ntop.com/hc/en-us/articles/360053425594-How-to-use-Simulation-Results-to-Create-a-Point-Map-or-Field)** · 新增：2026-07-22 · Support，更新 2026-05-18；`Example File`。  
+    文件：[`Simulation Results for a Point Map Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Simulation/Simulation%20Results%20for%20a%20Point%20Map%20Example.ntop)。  
+    适合：想把仿真结果重新喂回 implicit workflow 的人，适合练习从 simulation result 提取 point map / field、做 data-driven 厚度或形状调制，以及把分析和后续建模闭环起来。  
+
 ## 视频资料
 
 1. **[What is implicit modeling in nTop?](https://www.ntop.com/videos/video/ntop-live-what-is-implicit-modeling-in-ntopology/)** · 视频，2021-08-30；提供 `Download the files`。  
@@ -569,5 +577,5 @@
 | 拓扑优化 | How to run a topology optimization、Before We Begin、Topology Optimization Properties and Terminology、Review FE / Boundary Conditions、FE Model and Boundary Conditions、Design Responses、Optimization Objectives、Defining Constraints、Optimization settings、Passive region、Feature size constraints、Multiple objectives、Geometric constraints、Overhang constraint、Demold constraint、Running Topology Optimization、Post Processing、Topology Optimization follow-along、TopOpt Test Problem starter、TopOpt & Post Processing complete file、Topology Optimization Tips and Best Practices、Advanced Topology Optimization、OptiStruct import、Answer to TopOpt Test Problem、Remap Constraint for Topology Optimization |
 | 自动化 | nTop Automate course、Preparing Notebook for Automate、Python scripts、ModeFrontier DOE |
 | 换热器 / 热管理 | End-to-End Heat Exchanger、Double Pipe HEX、Core and Baffles、Thermal management、nTop Fluids |
-| 仿真 / 网格 | Surface mesh、Simulation Model、Boundary Conditions、Static Analysis、Thermal Analysis、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
+| 仿真 / 网格 | Surface mesh、Simulation Model、Boundary Conditions、Static Analysis、FE Boundary by Flood Fill、Simulation Results to Point Map / Field、Thermal Analysis、Homogenized Lattice Simulation、Variable Shell Thickness、FE Mesh for complex shell lattice、Lattice Simulation files |
 | 航空参数化 | Parametric Aircraft Design、Parametric Impeller、Parametric Blisk Analysis、Accelerated Aircraft Modeling Webinar |
