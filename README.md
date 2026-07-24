@@ -1,6 +1,6 @@
 # nTop 隐式建模软件资料整理
 
-最后更新：2026-07-22
+最后更新：2026-07-24
 
 > 这里的 nTop 指 nTop / nTopology 隐式建模、计算设计、增材制造建模软件，不是 ntop.org 网络流量监控软件。
 
@@ -489,6 +489,14 @@
     文件：[`Simulation Results for a Point Map Example.ntop`](https://files.learn.ntop.com/Support%20Article%20Example%20Files/Knowledge%20Base/Simulation/Simulation%20Results%20for%20a%20Point%20Map%20Example.ntop)。  
     适合：想把仿真结果重新喂回 implicit workflow 的人，适合练习从 simulation result 提取 point map / field、做 data-driven 厚度或形状调制，以及把分析和后续建模闭环起来。  
 
+49. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Objectives & Constraints](https://learn.ntop.com/courses/440-field-optimization/lessons/follow-along-objectives-constraints/)** · 新增：2026-07-24 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + `.ntop` complete file，课程页标注 last updated in `nTop 5.20.2`。  
+    文件：[`440_15_Starter -- Objectives and Constraints.ntop`](https://files.learn.ntop.com/Courses/440%20Field%20Optimization/nTop%20Files/440_15_Starter%20--%20Objectives%20and%20Constraints.ntop)、[`440_15_Complete -- Objectives and Constraints.ntop`](https://files.learn.ntop.com/Courses/440%20Field%20Optimization/nTop%20Files/440_15_Complete%20--%20Objectives%20and%20Constraints.ntop)。  
+    适合：想把 field optimization 里的 objective、constraint、design scenario 和响应读数先吃透的人，适合在真正求解前把约束设定与设计目标的关系梳理清楚。  
+
+50. ![新增](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E-brightgreen) **[Follow Along: Running a Field Optimization](https://learn.ntop.com/courses/440-field-optimization/lessons/follow-along-running-a-field-optimization/)** · 新增：2026-07-24 · nTop Learn；follow-along lesson，提供 `.ntop` starter file + `.ntop` complete file。  
+    文件：[`440_16_Starter -- Running a Field Optimization.ntop`](https://files.learn.ntop.com/Courses/440%20Field%20Optimization/nTop%20Files/440_16_Starter%20--%20Running%20a%20Field%20Optimization.ntop)、[`440_16_Complete -- Running a Field Optimization.ntop`](https://files.learn.ntop.com/Courses/440%20Field%20Optimization/nTop%20Files/440_16_Complete%20--%20Running%20a%20Field%20Optimization.ntop)。  
+    适合：想亲手跑一遍 field optimization 闭环的人，适合练习从 starter file 设置求解、查看结果并对照 complete file 复盘整个性能驱动隐式建模流程。  
+
 ## 视频资料
 
 1. **[What is implicit modeling in nTop?](https://www.ntop.com/videos/video/ntop-live-what-is-implicit-modeling-in-ntopology/)** · 视频，2021-08-30；提供 `Download the files`。  
@@ -571,6 +579,7 @@
 | 工艺品 / 外观灵感 | Shoe design、TPMS midsole、3D printed shoe、Creating Ribs complete file、Noise Fields、Working with Bitmaps、random pattern、bitmap image texture、procedural textures、bitmap/deboss/knurl |
 | 隐式建模理论 | Whitepaper、Implicit modeling for engineering design、B-rep vs implicit |
 | Field-driven design | Mix block / Field blending、How to use fields、Two-body field、Periodic Fields、Remap Field block、Remap Field scale/translate |
+| Field optimization | Objectives & Constraints follow-along、Running a Field Optimization follow-along |
 | Custom Blocks / 有趣形状 | Commonly Used Custom Blocks、CB Stochastic Lattice、Conformal Lattice Skin、Part labeling、Parametric Aircraft / Jet Blocks、Topology Tiles |
 | 晶格结构 | Blend TPMS types、Periodic Lattice follow-along、Completed Periodic Lattice、Cell Maps Using CAD Faces、Cell Maps Using Meshes、Simple Volume Lattices、Periodic Lattice Test Problem、Periodic Lattice on Faces follow-along、Periodic Lattice on Faces complete file、Non-Periodic Lattices follow-along、Completed Non-Periodic Lattices、Applying Lattice Utilities、Filtering Lattice Beams、Custom lattice unit cell、Structural lattice on CAD face、Randomized lattice thickness、Fillets to lattices |
 | 表面纹理 | Noise Fields、Working with Bitmaps、Random pattern、Voronoi surface texture、Perforations、Surface roughness、Hyper-realistic 3D textures、Procedural textures |
